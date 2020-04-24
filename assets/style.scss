@@ -1,0 +1,3514 @@
+@import "~vue2-animate/src/sass/vue2-animate.scss";
+@import "carousel.scss";
+
+a {
+  color: white;
+
+  &:hover {
+    text-decoration: none;
+    color: #e7007e;
+  }
+}
+
+.link a {
+  color: #555555;
+  text-decoration: underline;
+
+  &:hover {
+    color: #e7007e;
+  }
+}
+
+.menuMarginFixed {
+  margin-top: 85px;
+}
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+  float: left;
+  display: block;
+
+  /*color: #f2f2f2;*/
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-top: 5px solid transparent;
+
+  &:hover {
+    border-top: 5px solid #e7007e;
+  }
+
+  &.voce_menu_active {
+    border-top: 5px solid #e7007e;
+    color: #e7007e;
+  }
+}
+
+.barretta {
+  background-color: #e7007e;
+  width: 160px;
+  height: 3px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+
+/*MENU DROPDOWN*/
+
+.dropdown-item:hover {
+  background-color: #e7007e;
+  color: white;
+}
+
+.dropdown-menu {
+  text-align: left;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 5px solid #e7007e;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+.containerSlider {
+  max-width: 1300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pt-paragrafo {
+  padding-top: 32px !important;
+}
+
+.pb-paragrafo {
+  padding-bottom: 51.2px !important;
+}
+
+.pt-title1 {
+  padding-top: 96px !important;
+}
+
+.pt-title2 {
+  padding-top: 144px !important;
+}
+
+.pt-sfida {
+  padding-top: 40px !important;
+}
+
+.pb-sfida {
+  padding-bottom: 175px !important;
+}
+
+.pt-immagini {
+  padding-top: 80px !important;
+}
+
+.pt-mission {
+  padding-top: 18px !important;
+}
+
+.pb-bottom {
+  padding-bottom: 80px !important;
+}
+
+.pt-bottom {
+  padding-top: 80px !important;
+}
+
+.pb-shape {
+  padding-bottom: 120px !important;
+}
+
+.pb-pentaho {
+  padding-bottom: 40px !important;
+}
+
+.pb-finale {
+  padding-bottom: 160px;
+}
+
+.pt-contatti {
+  padding-top: 50px;
+}
+
+.pb-contatti {
+  padding-bottom: 50px;
+}
+
+.esc_1, .esc_2 {
+  padding-left: 90px;
+}
+
+.missionSfida {
+  letter-spacing: 0.02em;
+  font-size: 27px;
+  line-height: 1.2;
+}
+
+.business_images {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  .metabase {
+    width: 85px;
+  }
+
+  .powerbi {
+    width: 184px;
+  }
+}
+
+.container_business {
+  width: 500px;
+}
+
+.container_business_case_history {
+  width: 100%;
+  max-width: 100%;
+  margin: 3% auto 0 auto;
+  text-align: center;
+}
+
+/*slide servizi*/
+
+.businessUno {
+  height: 400px;
+}
+
+.slideBusiness {
+  .textUno {
+    padding-top: 23px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 38px;
+  }
+
+  padding-top: 10px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+
+  img {
+    width: 450px;
+  }
+}
+
+.slideBusinessIG {
+  padding-top: 10px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+
+  img {
+    width: 385px;
+  }
+
+  .textUno {
+    padding-top: 26px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 38px;
+  }
+}
+
+.slideBusinessWA {
+  padding-top: 40px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+
+  img {
+    width: 460px;
+  }
+
+  .textUno {
+    padding-top: 47px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 38px;
+  }
+}
+
+/* Colori*/
+
+.fontPinkText {
+  color: #e7007e;
+}
+
+.fontWhitetext {
+  color: white;
+}
+
+.backgroundPink {
+  background-color: #e7007e;
+}
+
+.backgroundYellow {
+  background-color: #ffcd00;
+}
+
+.backgroundBlueLight {
+  background-color: #6cc7eb;
+}
+
+.backgroundGrayLight {
+  background-color: #f0f0f0;
+}
+
+.backgroundGreenLight {
+  background-color: #9bcec4;
+}
+
+.backgroundSchermataUno {
+  background-color: #A5CFC7;
+}
+
+.backgroundSchermataDue {
+  background-color: #C2D521;
+}
+
+.backgroundSchermataTre {
+  background-color: #FFCD18;
+}
+
+.backgroundSchermataQuattro {
+  background-color: #F7AD4A;
+}
+
+.backgroundSchermataCinque {
+  background-color: #28C8EA;
+}
+
+.esColor {
+  color: #818b96;
+}
+
+.fontGrayText {
+  color: #555555;
+}
+
+.fontLatoBlack {
+  font-family: 'Lato Black', sans-serif;
+  font-weight: bold;
+}
+
+.fontLatoBlackBolder {
+  font-family: 'Lato Black', sans-serif;
+  font-weight: bolder;
+}
+
+.fontLatoRegular {
+  font-family: 'Lato Regular', sans-serif;
+}
+
+.fontLineHeightSmall {
+  line-height: 23px;
+}
+
+.fontContatti {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.fontSizeTitle {
+  font-size: 33px;
+  line-height: 1.2;
+}
+
+.fontSizeText {
+  font-size: 18px;
+}
+
+.testi {
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.mr-8 {
+  margin-right: 96px !important;
+}
+
+/* MENU */
+
+.navbar {
+  background-color: white;
+}
+
+.nav-item {
+  margin-left: 40px;
+  padding-bottom: 17px;
+}
+
+.navbar .voce_menu {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+
+  &:hover {
+    color: #e7007e;
+  }
+}
+
+.navbar-brand img {
+  margin-left: 120px;
+}
+
+.servizi img {
+  width: 350px;
+}
+
+/*immagine finale pagine servizi da sistemare*/
+
+.immagini img {
+  width: 200px;
+  text-decoration: none;
+}
+
+.container2 {
+  max-width: 700px;
+}
+
+.footer_icone {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.esc_img img {
+  width: 150px;
+  padding-left: 50px;
+}
+
+.footer_icone {
+  .sfondoCerchio {
+    border-radius: 100%;
+    background-color: #818b96;
+    width: 52px;
+    height: 52px;
+    color: black;
+    text-align: center;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.fa-2x {
+  font-size: 1.5em;
+}
+
+/*BOTTONE TORNA SU*/
+
+.scrollToTop {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  background: url('/img/index/arrow_up.png');
+  opacity: 0.75;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+/** maps */
+
+.map-responsive {
+  overflow: hidden;
+  min-height: 600px;
+  position: relative;
+  height: 0;
+
+  iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: none;
+  }
+}
+
+.container-fluid {
+  position: relative;
+  top: 100%;
+}
+
+/** Maps end **/
+
+/*CAROUSEL ANIMAZIONI CSS*/
+
+.container {
+  padding: 10px 15px;
+}
+
+.carousel-control {
+  &.right, &.left {
+    background-image: none;
+  }
+}
+
+.carousel-item {
+  min-height: 430px;
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-caption h3 {
+  padding: .5em;
+}
+
+.carousel .icon-container {
+  display: inline-block;
+  font-size: 25px;
+  line-height: 25px;
+  padding: 1em;
+  border-radius: 50%;
+}
+
+.carousel-caption-esc {
+  top: 0px;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+
+  .slideUno {
+    text-align: right;
+    width: 600px;
+    position: relative;
+    top: 34%;
+    left: 0%;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .slideDue {
+    text-align: right;
+    width: 500px;
+    position: relative;
+    top: 25%;
+    left: 0%;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .slideTre {
+    text-align: right;
+    width: 500px;
+    position: relative;
+    top: 22%;
+    left: 10%;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .slideQuattro {
+    text-align: right;
+    width: 500px;
+    position: relative;
+    top: 32%;
+    left: 10%;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .slideCinque {
+    text-align: right;
+    width: 560px;
+    position: relative;
+    top: 23%;
+    left: 5%;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .distributori {
+    position: absolute;
+    left: 53%;
+    top: 11%;
+
+    img {
+      width: 330px;
+    }
+  }
+
+  .mano {
+    position: absolute;
+    left: 81%;
+    top: 36%;
+
+    img {
+      width: 111px;
+    }
+  }
+
+  .pallini {
+    position: absolute;
+    left: 81%;
+    top: 35%;
+
+    img {
+      width: 110px;
+    }
+  }
+
+  .manichino {
+    position: absolute;
+    left: 47%;
+    top: 12%;
+
+    img {
+      width: 201px;
+    }
+  }
+
+  .maniMetro {
+    position: absolute;
+    left: 45%;
+    top: 46%;
+
+    img {
+      width: 305px;
+    }
+  }
+
+  .maniForbice {
+    position: absolute;
+    left: 64%;
+    top: 17%;
+
+    img {
+      width: 314px;
+    }
+  }
+
+  .maniSpilli {
+    position: absolute;
+    left: 70%;
+    top: 53%;
+
+    img {
+      width: 94px;
+    }
+  }
+
+  .maniLente {
+    position: absolute;
+    left: 79%;
+    top: 40%;
+
+    img {
+      width: 79px;
+    }
+  }
+
+  .data0 {
+    position: absolute;
+    left: 53%;
+    top: 52%;
+
+    img {
+      width: 440px;
+    }
+  }
+
+  .data1 {
+    position: absolute;
+    left: 52%;
+    top: 13%;
+
+    img {
+      width: 200px;
+    }
+  }
+
+  .data2 {
+    position: absolute;
+    left: 69%;
+    top: 13%;
+
+    img {
+      width: 110px;
+    }
+  }
+
+  .data3 {
+    position: absolute;
+    left: 80%;
+    top: 13%;
+
+    img {
+      width: 114px;
+    }
+  }
+
+  .informations {
+    position: absolute;
+    left: 60%;
+    top: 60%;
+
+    img {
+      width: 114px;
+    }
+  }
+
+  .provetta1 {
+    position: absolute;
+    left: 86%;
+    top: 22%;
+
+    img {
+      width: 34px;
+    }
+  }
+
+  .vasetti {
+    position: absolute;
+    left: 59%;
+    top: 73%;
+
+    img {
+      width: 140px;
+    }
+  }
+
+  .polipo0 {
+    position: absolute;
+    left: 53%;
+    top: 16%;
+
+    img {
+      width: 475px;
+    }
+  }
+
+  .provetta2 {
+    position: absolute;
+    left: 71%;
+    top: 5%;
+
+    img {
+      width: 33px;
+    }
+  }
+
+  .tentacolo1 {
+    position: absolute;
+    left: 70.2%;
+    top: 16.1%;
+
+    img {
+      width: 45px;
+    }
+  }
+
+  .tentacolo2 {
+    position: absolute;
+    left: 86.1%;
+    top: 34.7%;
+
+    img {
+      width: 45px;
+    }
+  }
+
+  .webapplications {
+    position: absolute;
+    left: 53%;
+    top: 18%;
+
+    img {
+      width: 450px;
+    }
+  }
+
+  .lettera {
+    position: absolute;
+    left: 67%;
+    top: 58%;
+
+    img {
+      width: 120px;
+    }
+  }
+
+  .cassetti {
+    position: absolute;
+    left: 54.5%;
+    top: 50%;
+
+    img {
+      width: 73px;
+    }
+  }
+
+  .computer {
+    position: absolute;
+    left: 80.7%;
+    top: 44%;
+
+    img {
+      width: 130px;
+    }
+  }
+
+  .tratteggio {
+    position: absolute;
+    left: 61%;
+    top: 52%;
+
+    img {
+      width: 250px;
+    }
+  }
+}
+
+.carousel-caption {
+
+  h3 {
+    color: yellow;
+    position: relative;
+    top: 15%;
+    left: 0%;
+    padding: 0;
+    margin-bottom: 0;
+    width: 800px;
+    text-align: left;
+  }
+}
+
+.textUno {
+  font-size: 47px;
+  font-weight: 900;
+  line-height: 54px;
+}
+
+.textDue {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.slideTre .textDue {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/*FINE ANIMAZIONI */
+
+/* BOX DOWNLOAD - INIZIO */
+
+.box_download {
+  cursor: pointer;
+  border: 1px solid #dedede;
+  width: 300px;
+  border-radius: 4px;
+  margin: 0 auto;
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+  text-align: center;
+
+  &:hover {
+    border-color: #e7007e;
+    transition: border-color 1s ease-out;
+  }
+
+  .testo {
+    font-style: italic;
+    width: 100%;
+  }
+
+  img {
+    width: 100px;
+  }
+
+  .underline {
+    text-decoration: underline;
+  }
+}
+
+.box_case_history {
+  display: flex;
+  width: 68%;
+  align-items: center;
+  align-content: space-between;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.box_example {
+  cursor: pointer;
+  border: 1px solid #dedede;
+  width: 300px;
+  border-radius: 4px;
+  margin: 0 auto;
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+  text-align: center;
+
+  &:hover {
+    border-color: #e7007e;
+    transition: border-color 1s ease-out;
+  }
+
+  .testo {
+    font-style: italic;
+    width: 100%;
+  }
+
+  img {
+    width: 100px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .underline {
+    text-decoration: underline;
+  }
+}
+
+/* BOX DOWNLOAD - END */
+
+/** Portatili 1920  */
+@media (max-width: 1920px) {
+  .map-responsive {
+    min-height: 300px;
+  }
+}
+
+/** IPAD PRO  */
+@media (max-width: 1024px) {
+  .servizi img {
+    width: 60%;
+  }
+
+  .immagini img {
+    width: 190px;
+  }
+
+  .esc_2, .esc_1 {
+    padding-left: 38px;
+  }
+
+  .footer_icone {
+    padding-right: 70px;
+
+    .sfondoCerchio {
+      width: 50px;
+      height: 50px;
+      margin: 5px;
+      font-size: 26px;
+    }
+  }
+
+  .barretta {
+    background-color: #e7007e;
+    width: 130px;
+    height: 3px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+
+  .carousel-item {
+    min-height: 350px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .textUno {
+    font-size: 35px;
+    font-weight: 900;
+  }
+
+  .textDue {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .slideTre .textDue {
+    font-size: 23px;
+    font-weight: bold;
+  }
+
+  .carousel-caption-esc {
+    .slideUno {
+      text-align: right;
+      width: 500px;
+      position: relative;
+      top: 29%;
+      left: 0%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .slideDue {
+      text-align: right;
+      width: 350px;
+      position: relative;
+      top: 19%;
+      left: 5%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .slideQuattro {
+      text-align: right;
+      width: 350px;
+      position: relative;
+      top: 32%;
+      left: 10%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .manichino {
+      position: absolute;
+      left: 45%;
+      top: 10%;
+
+      img {
+        width: 180px;
+      }
+    }
+
+    .maniMetro {
+      position: absolute;
+      left: 44%;
+      top: 51%;
+
+      img {
+        width: 245px;
+      }
+    }
+
+    .maniForbice {
+      position: absolute;
+      left: 64%;
+      top: 14%;
+
+      img {
+        width: 281px;
+      }
+    }
+
+    .maniSpilli {
+      position: absolute;
+      left: 72%;
+      top: 55%;
+
+      img {
+        width: 86px;
+      }
+    }
+
+    .maniLente {
+      position: absolute;
+      left: 82%;
+      top: 41%;
+
+      img {
+        width: 72px;
+      }
+    }
+
+    .distributori {
+      position: absolute;
+      left: 53%;
+      top: 11%;
+
+      img {
+        width: 268px;
+      }
+    }
+
+    .mano {
+      position: absolute;
+      left: 81%;
+      top: 36%;
+
+      img {
+        width: 87px;
+      }
+    }
+
+    .pallini {
+      position: absolute;
+      left: 81%;
+      top: 33%;
+
+      img {
+        width: 85px;
+      }
+    }
+
+    .slideTre {
+      text-align: right;
+      width: 470px;
+      position: relative;
+      top: 22%;
+      left: 0%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .data0 {
+      position: absolute;
+      left: 52%;
+      top: 59%;
+
+      img {
+        width: 370px;
+      }
+    }
+
+    .data1 {
+      position: absolute;
+      left: 50%;
+      top: 18%;
+
+      img {
+        width: 170px;
+      }
+    }
+
+    .data2 {
+      position: absolute;
+      left: 69%;
+      top: 16%;
+
+      img {
+        width: 100px;
+      }
+    }
+
+    .data3 {
+      position: absolute;
+      left: 81%;
+      top: 17%;
+
+      img {
+        width: 100px;
+      }
+    }
+
+    .informations {
+      position: absolute;
+      left: 57%;
+      top: 60%;
+
+      img {
+        width: 95px;
+      }
+    }
+
+    .provetta2 {
+      position: absolute;
+      left: 85%;
+      top: 18%;
+
+      img {
+        width: 29px;
+      }
+    }
+
+    .vasetti {
+      position: absolute;
+      left: 56%;
+      top: 74%;
+
+      img {
+        width: 118px;
+      }
+    }
+
+    .polipo0 {
+      position: absolute;
+      left: 48%;
+      top: 11%;
+
+      img {
+        width: 430px;
+      }
+    }
+
+    .provetta1 {
+      position: absolute;
+      left: 68%;
+      top: 3%;
+
+      img {
+        width: 23px;
+      }
+    }
+
+    .tentacolo1 {
+      position: absolute;
+      left: 67.9%;
+      top: 11.1%;
+
+      img {
+        width: 32px;
+      }
+    }
+
+    .tentacolo2 {
+      position: absolute;
+      left: 85.6%;
+      top: 31.2%;
+
+      img {
+        width: 32px;
+      }
+    }
+
+    .slideCinque {
+      text-align: right;
+      width: 400px;
+      position: relative;
+      top: 23%;
+      left: 7%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .webapplications {
+      position: absolute;
+      left: 50%;
+      top: 18%;
+
+      img {
+        width: 420px;
+      }
+    }
+
+    .lettera {
+      position: absolute;
+      left: 67%;
+      top: 65%;
+
+      img {
+        width: 100px;
+      }
+    }
+
+    .cassetti {
+      position: absolute;
+      left: 52.3%;
+      top: 56%;
+
+      img {
+        width: 65px;
+      }
+    }
+
+    .computer {
+      position: absolute;
+      left: 82.7%;
+      top: 48%;
+
+      img {
+        width: 110px;
+      }
+    }
+
+    .tratteggio {
+      position: absolute;
+      left: 60%;
+      top: 57%;
+
+      img {
+        width: 235px;
+      }
+    }
+  }
+
+  /*CSS SLIDE UNO*/
+
+  /*CSS SLIDE TRE*/
+
+  /*CSS SLIDE QUATTRO*/
+
+  /*CSS SLIDE CINQUE*/
+}
+
+/** IPAD  */
+@media (max-width: 768px) {
+  .dropdown-menu {
+    border-bottom: none;
+  }
+
+  .fontSizeTitle {
+    font-size: 28px;
+  }
+
+  .missionSfida {
+    letter-spacing: 0.02em;
+    font-size: 21px;
+    line-height: 1.2;
+  }
+
+  .fontSizeText {
+    font-size: 15px;
+  }
+
+  .fontLineHeightSmall {
+    line-height: 19px;
+  }
+
+  .footer img {
+    width: 100%;
+  }
+
+  .footer_icone .sfondoCerchio {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 26px;
+  }
+
+  .navbar-brand img {
+    margin-left: 60px;
+  }
+
+  .immagini img {
+    width: 160px;
+  }
+
+  .pb-shape {
+    padding-bottom: 66px !important;
+  }
+
+  .pb-finale {
+    padding-bottom: 50px !important;
+  }
+
+  .esc_img img {
+    width: 114px;
+    padding-left: 22px;
+  }
+
+  .fontContatti {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .esc_1 {
+    line-height: 20px;
+  }
+
+  .pt-title2 {
+    padding-top: 116px !important;
+  }
+
+  .pt-sfida {
+    padding-top: 63px !important;
+  }
+
+  .pb-sfida {
+    padding-bottom: 120px !important;
+  }
+
+  .pb-paragrafo {
+    padding-bottom: 13.2px !important;
+  }
+
+  .pt-datimano {
+    padding-top: 60px;
+  }
+
+  .pt-integrazioni {
+    padding-top: 2rem !important;
+  }
+
+  .pentaho img {
+    width: 200px;
+  }
+
+  .pt-3, .py-3 {
+    padding-top: 2rem !important;
+  }
+
+  .carousel-item {
+    min-height: 260px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .textUno {
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 40px;
+  }
+
+  .textDue {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .slideTre .textDue {
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .carousel-caption-esc {
+    .slideUno {
+      text-align: right;
+      width: 300px;
+      position: relative;
+      top: 29%;
+      left: 10%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .slideDue {
+      text-align: right;
+      width: 250px;
+      position: relative;
+      top: 14%;
+      left: 5%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .slideTre {
+      text-align: right;
+      width: 350px;
+      position: relative;
+      top: 22%;
+      left: 0%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .slideQuattro {
+      text-align: right;
+      width: 250px;
+      position: relative;
+      top: 32%;
+      left: 10%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .slideCinque {
+      text-align: right;
+      width: 400px;
+      position: relative;
+      top: 23%;
+      left: 0%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  .menuMarginFixed {
+    margin-top: 65px;
+  }
+
+  .barretta {
+    background-color: #e7007e;
+    width: 140px;
+    height: 3px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+
+  .carousel-caption-esc {
+    .manichino {
+      position: absolute;
+      left: 46%;
+      top: 8%;
+
+      img {
+        width: 130px;
+      }
+    }
+
+    .maniMetro {
+      position: absolute;
+      left: 45%;
+      top: 49%;
+
+      img {
+        width: 174px;
+      }
+    }
+
+    .maniForbice {
+      position: absolute;
+      left: 65%;
+      top: 13%;
+
+      img {
+        width: 185px;
+      }
+    }
+
+    .maniSpilli {
+      position: absolute;
+      left: 70%;
+      top: 55%;
+
+      img {
+        width: 59px;
+      }
+    }
+
+    .maniLente {
+      position: absolute;
+      left: 80%;
+      top: 37%;
+
+      img {
+        width: 56px;
+      }
+    }
+
+    .distributori {
+      position: absolute;
+      left: 53%;
+      top: 11%;
+
+      img {
+        width: 205px;
+      }
+    }
+
+    .mano {
+      position: absolute;
+      left: 81%;
+      top: 36%;
+
+      img {
+        width: 68px;
+      }
+    }
+
+    .pallini {
+      position: absolute;
+      left: 81%;
+      top: 32%;
+
+      img {
+        width: 67px;
+      }
+    }
+
+    .slideTre {
+      text-align: right;
+      width: 384px;
+      position: relative;
+      top: 16%;
+      left: 0%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .data0 {
+      position: absolute;
+      left: 54%;
+      top: 55%;
+
+      img {
+        width: 285px;
+      }
+    }
+
+    .data1 {
+      position: absolute;
+      left: 52%;
+      top: 15%;
+
+      img {
+        width: 123px;
+      }
+    }
+
+    .data2 {
+      position: absolute;
+      left: 71%;
+      top: 14%;
+
+      img {
+        width: 73px;
+      }
+    }
+
+    .data3 {
+      position: absolute;
+      left: 83%;
+      top: 14%;
+
+      img {
+        width: 73px;
+      }
+    }
+
+    .informations {
+      position: absolute;
+      left: 57%;
+      top: 62%;
+
+      img {
+        width: 70px;
+      }
+    }
+
+    .provetta2 {
+      position: absolute;
+      left: 85%;
+      top: 18%;
+
+      img {
+        width: 21px;
+      }
+    }
+
+    .vasetti {
+      position: absolute;
+      left: 56%;
+      top: 74%;
+
+      img {
+        width: 87px;
+      }
+    }
+
+    .polipo0 {
+      position: absolute;
+      left: 48%;
+      top: 11%;
+
+      img {
+        width: 320px;
+      }
+    }
+
+    .provetta1 {
+      position: absolute;
+      left: 68%;
+      top: 3%;
+
+      img {
+        width: 17px;
+      }
+    }
+
+    .tentacolo1 {
+      position: absolute;
+      left: 67.4%;
+      top: 9.1%;
+
+      img {
+        width: 24px;
+      }
+    }
+
+    .tentacolo2 {
+      position: absolute;
+      left: 85.5%;
+      top: 28.2%;
+
+      img {
+        width: 24px;
+      }
+    }
+
+    .slideCinque {
+      text-align: right;
+      width: 287px;
+      position: relative;
+      top: 23%;
+      left: 7%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .webapplications {
+      position: absolute;
+      left: 50%;
+      top: 21%;
+
+      img {
+        width: 323px;
+      }
+    }
+
+    .lettera {
+      position: absolute;
+      left: 67%;
+      top: 71%;
+
+      img {
+        width: 80px;
+      }
+    }
+
+    .cassetti {
+      position: absolute;
+      left: 52.4%;
+      top: 59%;
+
+      img {
+        width: 45px;
+      }
+    }
+
+    .computer {
+      position: absolute;
+      left: 83.7%;
+      top: 54%;
+
+      img {
+        width: 83px;
+      }
+    }
+
+    .tratteggio {
+      position: absolute;
+      left: 60%;
+      top: 62%;
+
+      img {
+        width: 186px;
+      }
+    }
+  }
+
+  /*CSS SLIDE UNO*/
+
+  /*CSS SLIDE TRE*/
+
+  /*CSS SLIDE QUATTRO*/
+
+  /*CSS SLIDE CINQUE*/
+
+  /*slide servizi*/
+
+  .businessUno {
+    height: 450px;
+  }
+
+  .slideBusiness {
+    .textUno {
+      padding-top: 33px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 38px;
+    }
+
+    padding-top: 81px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    img {
+      width: 400px;
+    }
+  }
+
+  .slideBusinessIG {
+    padding-top: 81px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    img {
+      width: 351px;
+    }
+
+    .textUno {
+      padding-top: 40px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 38px;
+    }
+  }
+
+  .slideBusinessWA {
+    padding-top: 89px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    img {
+      width: 398px;
+    }
+
+    .textUno {
+      padding-top: 60px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 38px;
+    }
+  }
+
+  .box_case_history {
+    display: block;
+    width: 100%;
+  }
+
+  .box_example {
+    margin-top: 20px;
+  }
+}
+
+/** NEXUS 7 */
+@media (max-width: 601px) {
+  .dropdown-menu {
+    border-bottom: none;
+  }
+
+  .pt-paragrafo {
+    padding-top: 32px !important;
+  }
+
+  .pt-title1 {
+    padding-top: 96px !important;
+  }
+
+  .pb-paragrafo {
+    padding-bottom: 51.2px !important;
+  }
+
+  .servizi img {
+    width: 55%;
+  }
+
+  .fontSizeTitle {
+    font-size: 22px;
+  }
+
+  .missionSfida {
+    letter-spacing: 0.02em;
+    font-size: 15px;
+    line-height: 1.2;
+  }
+
+  .fontSizeText {
+    font-size: 14px;
+  }
+
+  .fontLineHeightSmall {
+    line-height: 18px;
+  }
+
+  .footer_icone {
+    justify-content: center;
+
+    .sfondoCerchio {
+      width: 50px;
+      height: 50px;
+      margin: 5px;
+      font-size: 26px;
+    }
+  }
+}
+
+/** Iphone 6plus */
+@media (max-width: 450px) {
+  .dropdown-menu {
+    border-bottom: none;
+  }
+
+  .servizi img {
+    width: 43%;
+  }
+
+  .fontSizeTitle {
+    font-size: 20px;
+  }
+
+  .missionSfida {
+    letter-spacing: 0.02em;
+    font-size: 17px;
+    line-height: 1.2;
+  }
+
+  .fontSizeText {
+    font-size: 13px;
+  }
+
+  .fontLineHeightSmall {
+    line-height: 17px;
+  }
+
+  .footer img {
+    width: 120%;
+  }
+
+  .footer_icone {
+    justify-content: center;
+
+    .sfondoCerchio {
+      width: 40px;
+      height: 40px;
+      margin: 5px;
+      font-size: 20px;
+    }
+  }
+
+  /*BOTTONE TORNA SU*/
+
+  .scrollToTop {
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .pt-title1 {
+    padding-top: 40px !important;
+  }
+
+  .pt-mission {
+    padding-top: 18px !important;
+  }
+
+  .pt-sfida {
+    padding-top: 45px !important;
+  }
+
+  .pb-sfida {
+    padding-bottom: 75px !important;
+  }
+
+  .pt-title2 {
+    padding-top: 59px !important;
+  }
+
+  .pt-immagini {
+    padding-top: 12px !important;
+  }
+
+  .esc_img img {
+    width: 114px;
+    padding-left: 10px;
+    padding-right: 25px;
+  }
+
+  .pl-icon {
+    padding-left: 146px;
+  }
+
+  .pt-bottom {
+    padding-top: 62px !important;
+  }
+
+  .pb-bottom {
+    padding-bottom: 56px !important;
+  }
+
+  .pb-finale {
+    padding-bottom: 70px;
+  }
+
+  .pt-datimano {
+    padding-top: 18px !important;
+  }
+
+  .navbar-brand img {
+    margin-left: 32px;
+  }
+
+  .web_app img {
+    width: 200px;
+  }
+
+  .business_images {
+    .metabase {
+      width: 60px;
+    }
+
+    .powerbi {
+      width: 121px;
+    }
+  }
+
+  .container_business {
+    width: 100%;
+  }
+
+  .fontContatti {
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .esc_1 {
+    line-height: 18px;
+    font-size: 14px;
+  }
+
+  .carousel-item {
+    min-height: 300px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .textUno {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 32px;
+  }
+
+  .textDue {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .slideTre .textDue {
+    font-size: 8px;
+    font-weight: bold;
+  }
+
+  .carousel-caption-esc {
+    .slideDue {
+      text-align: right;
+      width: 212px;
+      position: relative;
+      top: 2%;
+      left: 18%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .slideTre {
+      text-align: right;
+      width: 170px;
+      position: relative;
+      top: 22%;
+      left: 3%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .slideCinque {
+      text-align: right;
+      width: 180px;
+      position: relative;
+      top: 23%;
+      left: 0%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .manichino {
+      position: absolute;
+      left: 23%;
+      top: 51%;
+
+      img {
+        width: 92px;
+      }
+    }
+
+    .maniMetro {
+      position: absolute;
+      left: 20%;
+      top: 73%;
+
+      img {
+        width: 137px;
+      }
+    }
+
+    .maniForbice {
+      position: absolute;
+      left: 47%;
+      top: 53%;
+
+      img {
+        width: 120px;
+      }
+    }
+
+    .maniSpilli {
+      position: absolute;
+      left: 55%;
+      top: 78%;
+
+      img {
+        width: 39px;
+      }
+    }
+
+    .maniLente {
+      position: absolute;
+      left: 66%;
+      top: 68%;
+
+      img {
+        width: 36px;
+      }
+    }
+  }
+
+  .menuMarginFixed {
+    margin-top: 67px;
+  }
+
+  .pb-paragrafo {
+    padding-bottom: 0px !important;
+  }
+
+  .barretta {
+    background-color: #e7007e;
+    width: 90px;
+    height: 2px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+
+  /*CSS SLIDE UNO*/
+
+  .carousel-caption-esc .slideUno {
+    text-align: right;
+    width: 308px;
+    position: relative;
+    top: 6%;
+    left: 4%;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .slideUno {
+    .textUno {
+      font-size: 30px;
+      font-weight: 900;
+      line-height: 32px;
+    }
+
+    .textDue {
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+
+  .carousel-caption-esc {
+    .distributori {
+      position: absolute;
+      left: 25%;
+      top: 56%;
+
+      img {
+        width: 125px;
+      }
+    }
+
+    .mano {
+      position: absolute;
+      left: 61%;
+      top: 68%;
+
+      img {
+        width: 45px;
+      }
+    }
+
+    .pallini {
+      position: absolute;
+      left: 60%;
+      top: 65%;
+
+      img {
+        width: 55px;
+      }
+    }
+
+    .slideTre {
+      text-align: right;
+      width: 330px;
+      position: relative;
+      top: 5%;
+      left: 0%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .data0 {
+      position: absolute;
+      left: 25%;
+      top: 76%;
+
+      img {
+        width: 220px;
+      }
+    }
+
+    .data1 {
+      position: absolute;
+      left: 25%;
+      top: 53%;
+
+      img {
+        width: 86px;
+      }
+    }
+
+    .data2 {
+      position: absolute;
+      left: 51%;
+      top: 53%;
+
+      img {
+        width: 45px;
+      }
+    }
+
+    .data3 {
+      position: absolute;
+      left: 67%;
+      top: 53%;
+
+      img {
+        width: 45px;
+      }
+    }
+
+    .slideQuattro {
+      text-align: right;
+      width: 337px;
+      position: relative;
+      top: 2%;
+      left: 3%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .informations {
+      position: absolute;
+      left: 34%;
+      top: 77%;
+
+      img {
+        width: 55px;
+      }
+    }
+
+    .provetta2 {
+      position: absolute;
+      left: 72.6%;
+      top: 50%;
+
+      img {
+        width: 16px;
+      }
+    }
+
+    .vasetti {
+      position: absolute;
+      left: 32%;
+      top: 86%;
+
+      img {
+        width: 72px;
+      }
+    }
+
+    .polipo0 {
+      position: absolute;
+      left: 22%;
+      top: 45%;
+
+      img {
+        width: 240px;
+      }
+    }
+
+    .provetta1 {
+      position: absolute;
+      left: 50%;
+      top: 38%;
+
+      img {
+        width: 14px;
+      }
+    }
+
+    .tentacolo1 {
+      position: absolute;
+      left: 49%;
+      top: 42.6%;
+
+      img {
+        width: 18px;
+      }
+    }
+
+    .tentacolo2 {
+      position: absolute;
+      left: 73.5%;
+      top: 54.8%;
+
+      img {
+        width: 18px;
+      }
+    }
+
+    .slideCinque {
+      text-align: right;
+      width: 351px;
+      position: relative;
+      top: 0%;
+      left: 0%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  /*CSS SLIDE TRE*/
+
+  /*CSS SLIDE QUATTRO*/
+
+  /*CSS SLIDE CINQUE*/
+
+  .slideCinque {
+    .textUno {
+      font-size: 24px;
+      font-weight: 900;
+      line-height: 32px;
+    }
+
+    .textDue {
+      font-size: 13px;
+      font-weight: bold;
+    }
+  }
+
+  .carousel-caption-esc {
+    .webapplications {
+      position: absolute;
+      left: 22%;
+      top: 49%;
+
+      img {
+        width: 245px;
+      }
+    }
+
+    .lettera {
+      position: absolute;
+      left: 45%;
+      top: 83%;
+
+      img {
+        width: 62px;
+      }
+    }
+
+    .cassetti {
+      position: absolute;
+      left: 25.4%;
+      top: 74%;
+
+      img {
+        width: 40px;
+      }
+    }
+
+    .computer {
+      position: absolute;
+      left: 67.7%;
+      top: 70%;
+
+      img {
+        width: 70px;
+      }
+    }
+
+    .tratteggio {
+      position: absolute;
+      left: 37%;
+      top: 77%;
+
+      img {
+        width: 130px;
+      }
+    }
+  }
+
+  /*slide servizi*/
+
+  .businessUno {
+    height: 300px;
+  }
+
+  .slideBusiness {
+    .textUno {
+      padding-top: 29px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    padding-top: 85px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    img {
+      width: 210px;
+    }
+  }
+
+  .slideBusinessIG {
+    padding-top: 75px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    img {
+      width: 195px;
+    }
+
+    .textUno {
+      padding-top: 24px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 16px;
+    }
+  }
+
+  .slideBusinessWA {
+    padding-top: 86px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    img {
+      width: 240px;
+    }
+
+    .textUno {
+      padding-top: 24px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 16px;
+    }
+  }
+
+  /* BOX DOWNLOAD - INIZIO */
+
+  .box_download {
+    width: 190px;
+
+    img {
+      width: 65px;
+    }
+  }
+
+  /* BOX DOWNLOAD - END */
+}
+
+/** Nexus 4 / Lg / Black */
+@media (max-width: 385px) {
+  .dropdown-menu {
+    border-bottom: none;
+  }
+}
+
+/** Iphone 6 */
+@media (max-width: 375px) {
+  .dropdown-menu {
+    border-bottom: none;
+  }
+
+  .business_images {
+    .metabase {
+      width: 40px;
+    }
+
+    .powerbi {
+      width: 100px;
+    }
+  }
+
+  .barretta {
+    background-color: #e7007e;
+    width: 80px;
+    height: 2px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+
+  .missionSfida {
+    letter-spacing: 0.02em;
+    font-size: 13px;
+    line-height: 1.2;
+  }
+
+  .carousel-item {
+    min-height: 300px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .textUno {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 32px;
+  }
+
+  .textDue {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .slideTre .textDue {
+    font-size: 8px;
+    font-weight: bold;
+  }
+
+  .carousel-caption-esc {
+    .slideUno {
+      text-align: right;
+      width: 200px;
+      position: relative;
+      top: 29%;
+      left: 0%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .slideDue {
+      text-align: right;
+      width: 212px;
+      position: relative;
+      top: 2%;
+      left: 18%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .slideTre {
+      text-align: right;
+      width: 170px;
+      position: relative;
+      top: 22%;
+      left: 3%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .slideQuattro {
+      text-align: right;
+      width: 150px;
+      position: relative;
+      top: 32%;
+      left: 3%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .manichino {
+      position: absolute;
+      left: 21%;
+      top: 51%;
+
+      img {
+        width: 92px;
+      }
+    }
+
+    .maniMetro {
+      position: absolute;
+      left: 18%;
+      top: 73%;
+
+      img {
+        width: 137px;
+      }
+    }
+
+    .maniForbice {
+      position: absolute;
+      left: 48%;
+      top: 55%;
+
+      img {
+        width: 111px;
+      }
+    }
+
+    .maniSpilli {
+      position: absolute;
+      left: 56%;
+      top: 80%;
+
+      img {
+        width: 37px;
+      }
+    }
+
+    .maniLente {
+      position: absolute;
+      left: 67%;
+      top: 68%;
+
+      img {
+        width: 37px;
+      }
+    }
+
+    .slideUno {
+      text-align: right;
+      width: 302px;
+      position: relative;
+      top: 6%;
+      left: 0%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  /*CSS SLIDE UNO*/
+
+  .slideUno {
+    .textUno {
+      font-size: 30px;
+      font-weight: 900;
+      line-height: 32px;
+    }
+
+    .textDue {
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+
+  .carousel-caption-esc {
+    .distributori {
+      position: absolute;
+      left: 25%;
+      top: 56%;
+
+      img {
+        width: 125px;
+      }
+    }
+
+    .mano {
+      position: absolute;
+      left: 64%;
+      top: 68%;
+
+      img {
+        width: 45px;
+      }
+    }
+
+    .pallini {
+      position: absolute;
+      left: 63%;
+      top: 65%;
+
+      img {
+        width: 50px;
+      }
+    }
+  }
+
+  /*CSS SLIDE TRE*/
+
+  .slideTre {
+    .textUno {
+      font-size: 24px;
+      font-weight: 900;
+      line-height: 28px;
+    }
+
+    .textDue {
+      font-size: 10px;
+      font-weight: bold;
+    }
+  }
+
+  .carousel-caption-esc {
+    .slideTre {
+      text-align: right;
+      width: 290px;
+      position: relative;
+      top: 3%;
+      left: 0%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .data0 {
+      position: absolute;
+      left: 23%;
+      top: 76%;
+
+      img {
+        width: 220px;
+      }
+    }
+
+    .data1 {
+      position: absolute;
+      left: 23%;
+      top: 53%;
+
+      img {
+        width: 86px;
+      }
+    }
+
+    .data2 {
+      position: absolute;
+      left: 53%;
+      top: 53%;
+
+      img {
+        width: 45px;
+      }
+    }
+
+    .data3 {
+      position: absolute;
+      left: 70%;
+      top: 53%;
+
+      img {
+        width: 45px;
+      }
+    }
+  }
+
+  /*CSS SLIDE QUATTRO*/
+
+  .slideQuattro {
+    .textUno {
+      font-size: 23px;
+      font-weight: 900;
+      line-height: 28px;
+    }
+
+    .textDue {
+      font-size: 11px;
+      font-weight: bold;
+    }
+  }
+
+  .carousel-caption-esc {
+    .slideQuattro {
+      text-align: right;
+      width: 288px;
+      position: relative;
+      top: 2%;
+      left: 3%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .informations {
+      position: absolute;
+      left: 32%;
+      top: 73%;
+
+      img {
+        width: 56px;
+      }
+    }
+
+    .provetta2 {
+      position: absolute;
+      left: 74.6%;
+      top: 46%;
+
+      img {
+        width: 16px;
+      }
+    }
+
+    .vasetti {
+      position: absolute;
+      left: 30%;
+      top: 82%;
+
+      img {
+        width: 72px;
+      }
+    }
+
+    .polipo0 {
+      position: absolute;
+      left: 19%;
+      top: 41%;
+
+      img {
+        width: 240px;
+      }
+    }
+
+    .provetta1 {
+      position: absolute;
+      left: 49%;
+      top: 34%;
+
+      img {
+        width: 14px;
+      }
+    }
+
+    .tentacolo1 {
+      position: absolute;
+      left: 49%;
+      top: 39.1%;
+
+      img {
+        width: 18px;
+      }
+    }
+
+    .tentacolo2 {
+      position: absolute;
+      left: 75.9%;
+      top: 51.1%;
+
+      img {
+        width: 18px;
+      }
+    }
+
+    .slideCinque {
+      text-align: right;
+      width: 324px;
+      position: relative;
+      top: 0%;
+      left: 0%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  /*CSS SLIDE CINQUE*/
+
+  .slideCinque {
+    .textUno {
+      font-size: 24px;
+      font-weight: 900;
+      line-height: 32px;
+    }
+
+    .textDue {
+      font-size: 13px;
+      font-weight: bold;
+    }
+  }
+
+  .carousel-caption-esc {
+    .webapplications {
+      position: absolute;
+      left: 17%;
+      top: 49%;
+
+      img {
+        width: 245px;
+      }
+    }
+
+    .lettera {
+      position: absolute;
+      left: 44%;
+      top: 82%;
+
+      img {
+        width: 59px;
+      }
+    }
+
+    .cassetti {
+      position: absolute;
+      left: 20.4%;
+      top: 74%;
+
+      img {
+        width: 34px;
+      }
+    }
+
+    .computer {
+      position: absolute;
+      left: 68.4%;
+      top: 70%;
+
+      img {
+        width: 66px;
+      }
+    }
+
+    .tratteggio {
+      position: absolute;
+      left: 32%;
+      top: 76%;
+
+      img {
+        width: 139px;
+      }
+    }
+  }
+
+  /*slide servizi*/
+
+  .businessUno {
+    height: 300px;
+  }
+
+  .slideBusiness {
+    .textUno {
+      padding-top: 21px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 19px;
+    }
+
+    padding-top: 85px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    img {
+      width: 210px;
+    }
+  }
+
+  .slideBusinessIG {
+    padding-top: 75px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    img {
+      width: 195px;
+    }
+
+    .textUno {
+      padding-top: 24px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 19px;
+    }
+  }
+
+  .slideBusinessWA {
+    padding-top: 86px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    img {
+      width: 240px;
+    }
+
+    .textUno {
+      padding-top: 24px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 19px;
+    }
+  }
+}
+
+/** Iphone 5 */
+@media (max-width: 320px) {
+  .dropdown-menu {
+    border-bottom: none;
+  }
+
+  .carousel-item {
+    min-height: 300px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .textUno {
+    font-size: 27px;
+    font-weight: 900;
+    line-height: 32px;
+  }
+
+  .textDue {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .slideTre .textDue {
+    font-size: 8px;
+    font-weight: bold;
+  }
+
+  .carousel-caption-esc {
+    .slideUno {
+      text-align: right;
+      width: 200px;
+      position: relative;
+      top: 29%;
+      left: 0%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .slideDue {
+      text-align: right;
+      width: 212px;
+      position: relative;
+      top: 2%;
+      left: 10%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .slideTre {
+      text-align: right;
+      width: 170px;
+      position: relative;
+      top: 22%;
+      left: 3%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .slideQuattro {
+      text-align: right;
+      width: 150px;
+      position: relative;
+      top: 32%;
+      left: 3%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .slideCinque {
+      text-align: right;
+      width: 180px;
+      position: relative;
+      top: 23%;
+      left: 0%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .manichino {
+      position: absolute;
+      left: 19%;
+      top: 51%;
+
+      img {
+        width: 92px;
+      }
+    }
+
+    .maniMetro {
+      position: absolute;
+      left: 17%;
+      top: 75%;
+
+      img {
+        width: 126px;
+      }
+    }
+
+    .maniForbice {
+      position: absolute;
+      left: 49%;
+      top: 55%;
+
+      img {
+        width: 110px;
+      }
+    }
+
+    .maniSpilli {
+      position: absolute;
+      left: 58%;
+      top: 80%;
+
+      img {
+        width: 36px;
+      }
+    }
+
+    .maniLente {
+      position: absolute;
+      left: 71%;
+      top: 69%;
+
+      img {
+        width: 35px;
+      }
+    }
+  }
+
+  .menuMarginFixed {
+    margin-top: 60px;
+  }
+
+  /*CSS SLIDE UNO*/
+
+  .carousel-caption-esc .slideUno {
+    text-align: right;
+    width: 253px;
+    position: relative;
+    top: 0%;
+    left: 6%;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .slideUno {
+    .textUno {
+      font-size: 24px;
+      font-weight: 900;
+      line-height: 30px;
+    }
+
+    .textDue {
+      font-size: 13px;
+      font-weight: bold;
+    }
+  }
+
+  .carousel-caption-esc {
+    .distributori {
+      position: absolute;
+      left: 14%;
+      top: 50%;
+
+      img {
+        width: 144px;
+      }
+    }
+
+    .mano {
+      position: absolute;
+      left: 64%;
+      top: 66%;
+
+      img {
+        width: 48px;
+      }
+    }
+
+    .pallini {
+      position: absolute;
+      left: 63%;
+      top: 62%;
+
+      img {
+        width: 52px;
+      }
+    }
+  }
+
+  /*CSS SLIDE TRE*/
+
+  .slideTre {
+    .textUno {
+      font-size: 24px;
+      font-weight: 900;
+      line-height: 28px;
+    }
+
+    .textDue {
+      font-size: 10px;
+      font-weight: bold;
+    }
+  }
+
+  .carousel-caption-esc {
+    .slideTre {
+      text-align: right;
+      width: 268px;
+      position: relative;
+      top: 3%;
+      left: 0%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .data0 {
+      position: absolute;
+      left: 17%;
+      top: 71%;
+
+      img {
+        width: 220px;
+      }
+    }
+
+    .data1 {
+      position: absolute;
+      left: 17%;
+      top: 48%;
+
+      img {
+        width: 86px;
+      }
+    }
+
+    .data2 {
+      position: absolute;
+      left: 50%;
+      top: 48%;
+
+      img {
+        width: 45px;
+      }
+    }
+
+    .data3 {
+      position: absolute;
+      left: 70%;
+      top: 48%;
+
+      img {
+        width: 45px;
+      }
+    }
+  }
+
+  /*CSS SLIDE QUATTRO*/
+
+  .slideQuattro {
+    .textUno {
+      font-size: 19px;
+      font-weight: 900;
+      line-height: 28px;
+    }
+
+    .textDue {
+      font-size: 9px;
+      font-weight: bold;
+    }
+  }
+
+  .carousel-caption-esc {
+    .slideQuattro {
+      text-align: right;
+      width: 245px;
+      position: relative;
+      top: 2%;
+      left: 3%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+
+    .informations {
+      position: absolute;
+      left: 29%;
+      top: 73%;
+
+      img {
+        width: 56px;
+      }
+    }
+
+    .provetta2 {
+      position: absolute;
+      left: 79.6%;
+      top: 46%;
+
+      img {
+        width: 14px;
+      }
+    }
+
+    .vasetti {
+      position: absolute;
+      left: 27%;
+      top: 82%;
+
+      img {
+        width: 70px;
+      }
+    }
+
+    .polipo0 {
+      position: absolute;
+      left: 14%;
+      top: 41%;
+
+      img {
+        width: 240px;
+      }
+    }
+
+    .provetta1 {
+      position: absolute;
+      left: 50%;
+      top: 34%;
+
+      img {
+        width: 14px;
+      }
+    }
+
+    .tentacolo1 {
+      position: absolute;
+      left: 49%;
+      top: 38.7%;
+
+      img {
+        width: 18px;
+      }
+    }
+
+    .tentacolo2 {
+      position: absolute;
+      left: 80.7%;
+      top: 50.8%;
+
+      img {
+        width: 18px;
+      }
+    }
+
+    .slideCinque {
+      text-align: right;
+      width: 269px;
+      position: relative;
+      top: 0%;
+      left: 0%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  /*CSS SLIDE CINQUE*/
+
+  .slideCinque {
+    .textUno {
+      font-size: 19px;
+      font-weight: 900;
+      line-height: 32px;
+    }
+
+    .textDue {
+      font-size: 9px;
+      font-weight: bold;
+    }
+  }
+
+  .carousel-caption-esc {
+    .webapplications {
+      position: absolute;
+      left: 12%;
+      top: 49%;
+
+      img {
+        width: 245px;
+      }
+    }
+
+    .lettera {
+      position: absolute;
+      left: 41%;
+      top: 82%;
+
+      img {
+        width: 59px;
+      }
+    }
+
+    .cassetti {
+      position: absolute;
+      left: 16.4%;
+      top: 74%;
+
+      img {
+        width: 34px;
+      }
+    }
+
+    .computer {
+      position: absolute;
+      left: 72.4%;
+      top: 70%;
+
+      img {
+        width: 66px;
+      }
+    }
+
+    .tratteggio {
+      position: absolute;
+      left: 29%;
+      top: 75%;
+
+      img {
+        width: 139px;
+      }
+    }
+  }
+
+  /*slide servizi*/
+
+  .businessUno {
+    height: 250px;
+  }
+
+  .slideBusiness {
+    .textUno {
+      padding-top: 10px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 17px;
+    }
+
+    padding-top: 77px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    img {
+      width: 147px;
+    }
+  }
+
+  .slideBusinessIG {
+    padding-top: 75px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    img {
+      width: 143px;
+    }
+
+    .textUno {
+      padding-top: 5px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 17px;
+      width: 180px;
+    }
+  }
+
+  .slideBusinessWA {
+    padding-top: 86px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    img {
+      width: 166px;
+    }
+
+    .textUno {
+      padding-top: 13px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 17px;
+    }
+  }
+}
+
+/** Galaxy S5 */
+@media (max-width: 360px) {
+  /*CSS SLIDE QUATTRO*/
+
+  .carousel-caption-esc {
+    .provetta2 {
+      position: absolute;
+      left: 77.6%;
+      top: 46%;
+
+      img {
+        width: 14px;
+      }
+    }
+
+    .provetta1 {
+      position: absolute;
+      left: 51%;
+      top: 34%;
+
+      img {
+        width: 14px;
+      }
+    }
+
+    .tentacolo1 {
+      position: absolute;
+      left: 50%;
+      top: 38.7%;
+
+      img {
+        width: 18px;
+      }
+    }
+
+    .tentacolo2 {
+      position: absolute;
+      left: 78.7%;
+      top: 50.8%;
+
+      img {
+        width: 18px;
+      }
+    }
+
+    .slideCinque {
+      text-align: right;
+      width: 290px;
+      position: relative;
+      top: 0%;
+      left: 0%;
+      padding: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  /*CSS SLIDE CINQUE*/
+
+  .slideCinque {
+    .textUno {
+      font-size: 20px;
+      font-weight: 900;
+      line-height: 32px;
+    }
+
+    .textDue {
+      font-size: 10px;
+      font-weight: bold;
+    }
+  }
+
+  .carousel-caption-esc .computer {
+    position: absolute;
+    left: 70.4%;
+    top: 70%;
+
+    img {
+      width: 66px;
+    }
+  }
+
+  /* BOX DOWNLOAD - INIZIO */
+
+  .box_download {
+    width: 160px;
+
+    img {
+      width: 45px;
+    }
+  }
+
+  /* BOX DOWNLOAD - END */
+}

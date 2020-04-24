@@ -1,0 +1,144 @@
+export default {
+  mode: 'universal',
+  /*
+   ** Headers of the page
+   */
+  head: {
+    title: 'ESC Enterprise Software Consulting srl',
+    meta: [
+      { charset: 'utf-8' },
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1, shrink-to-fit=no'
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'ESC consulting è il partner IT che fornisce alle aziende soluzioni efficaci per la gestione dei dati sviluppando strategie di ottimizzazione delle informazioni per il raggiungimento del business aziendale.'
+      },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content:
+          'dati, big data, IT, applicazioni, gestionali, software, SAP, ABAP, big intelligence, soluzione dati, gestione dati, analisi dati, open source, icloud, web application, integrazioni gestionali.'
+      },
+      {
+        hid: 'author',
+        name: 'author',
+        content: 'ESC Enterprise Software Consulting srl'
+      },
+      {
+        hid: 'google-site-verification',
+        name: 'google-site-verification',
+        content: 'Uz1sIwSqJYs151SAc5GUj8OiVr41_dXEdA8HOP3XnJo'
+      },
+      { 'http-equiv': 'Content-Language', content: 'IT' }
+    ],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap'
+      }
+    ],
+    script: [
+      {
+        src:
+          'https://polyfill.io/v3/polyfill.min.js?features=es2015%2CIntersectionObserver',
+        body: true
+      },
+      {
+        hid: 'iubendascript',
+        src: '/iubenda.js',
+        type: 'text/javascript',
+        charset: 'utf-8'
+      },
+      {
+        hid: 'iubenda',
+        src: '//cdn.iubenda.com/cs/iubenda_cs.js',
+        charset: 'utf-8',
+        defer: true
+      }
+    ]
+  },
+  /*
+   ** Customize the progress-bar color
+   */
+  loading: { color: '#fff' },
+  /*
+   ** Global CSS
+   */
+  css: ['assets/style.scss'],
+  /*
+   ** Plugins to load before mounting the App
+   */
+  plugins: [],
+  /*
+   ** Nuxt.js dev-modules
+   */
+  buildModules: [
+    // Doc: https://github.com/nuxt-community/eslint-module
+    '@nuxtjs/eslint-module',
+    // Doc: https://github.com/nuxt-community/stylelint-module
+    '@nuxtjs/stylelint-module',
+    '@nuxtjs/dotenv',
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-128979501-1'
+      }
+    ]
+  ],
+  /*
+   ** Nuxt.js modules
+   */
+  modules: [
+    // Doc: https://bootstrap-vue.js.org
+    'bootstrap-vue/nuxt',
+    'nuxt-fontawesome'
+  ],
+  /*
+   ** Build configuration
+   */
+  build: {
+    /*
+     ** You can extend webpack config here
+     */
+    extend(config, ctx) {}
+  },
+  router: {
+    async scrollBehavior(to, from, savedPosition) {
+      if (savedPosition) {
+        return savedPosition
+      }
+
+      const findEl = (hash, x = 0) => {
+        return (
+          document.querySelector(hash) ||
+          new Promise((resolve) => {
+            if (x > 50) {
+              return resolve(document.querySelector('#app'))
+            }
+            setTimeout(() => {
+              resolve(findEl(hash, ++x || 1))
+            }, 50)
+          })
+        )
+      }
+
+      if (to.hash) {
+        const el = await findEl(to.hash)
+        if ('scrollBehavior' in document.documentElement.style) {
+          return window.scrollTo({ top: el.offsetTop })
+        } else {
+          return window.scrollTo(0, el.offsetTop)
+        }
+      }
+
+      return { x: 0, y: 0 }
+    }
+  }
+  // https://toor.co/blog/nuxtjs-smooth-scrolling-with-hash-links/
+}
