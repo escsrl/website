@@ -6,31 +6,31 @@ const getDefaultState = () => {
       {
         key: 0,
         link: '/webapp',
-        image: 'img/index/web_application.png',
+        image: '/img/index/web_application.png',
         text: 'Web \n application'
       },
       {
         key: 1,
         link: '/integrazioni-gestionali',
-        image: 'img/index/integrazioni_gestionali.png',
+        image: '/img/index/integrazioni_gestionali.png',
         text: 'Integrazioni \n gestionali'
       },
       {
         key: 2,
         link: '/data',
-        image: 'img/index/data_cleaner.png',
+        image: '/img/index/data_cleaner.png',
         text: 'Data cleaner \n Quality \n Governance'
       },
       {
         key: 3,
         link: '/bi',
-        image: 'img/index/business_inteligence.png',
+        image: '/img/index/business_inteligence.png',
         text: 'Business Intelligence \n Self service'
       },
       {
         key: 4,
         link: '/sap',
-        image: 'img/index/sviluppo_custom.png',
+        image: '/img/index/sviluppo_custom.png',
         text: 'Sviluppo custom \n Sap'
       }
     ]
