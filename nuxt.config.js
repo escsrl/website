@@ -89,7 +89,9 @@ export default {
       {
         id: 'UA-128979501-1'
       }
-    ]
+    ],
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots'
   ],
   /*
    ** Nuxt.js modules
@@ -139,6 +141,10 @@ export default {
 
       return { x: 0, y: 0 }
     }
-  }
+  },
   // https://toor.co/blog/nuxtjs-smooth-scrolling-with-hash-links/
+  sitemap: {
+    hostname: 'https://esconsulting.it',
+    gzip: true
+  }
 }

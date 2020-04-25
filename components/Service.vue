@@ -1,6 +1,6 @@
 <template>
   <nuxt-link :to="service.link">
-    <img :src="service.image" />
+    <img :src="service.image" :alt="service.alt" />
     <div
       class="testi pt-md-3 pt-sm-2 pt-2 fontLatoBlackBolder fontSizeText fontPinkText text-uppercase text-center fontLineHeightSmall"
     >
@@ -19,7 +19,8 @@ export default {
         return {
           link: '/',
           image: '',
-          text: ' '
+          text: '',
+          alt: 'Servizio'
         }
       }
     }
