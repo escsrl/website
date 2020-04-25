@@ -16,7 +16,7 @@
         <b-nav-item class="nav-item voce_menu" href="#" to="/">HOME</b-nav-item>
         <b-nav-item
           class="nav-item voce_menu"
-          :to="{ path: '/#chi_siamo', hash: '#chi_siamo' }"
+          :to="{ path: '/', hash: '#chi_siamo' }"
           >CHI SIAMO</b-nav-item
         >
 
