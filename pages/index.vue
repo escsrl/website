@@ -151,7 +151,6 @@
 </template>
 
 <script>
-import { call } from 'vuex-pathify'
 import Animation from '../components/Animation'
 export default {
   components: { Animation },
@@ -370,7 +369,6 @@ export default {
     }
   },
   methods: {
-    reset: call('service/reset'),
     onSlideStart(slide) {
       this.sliding = true
     },
@@ -380,11 +378,6 @@ export default {
     showSlide(slide) {
       return this.currentSlide === slide && !this.sliding
     }
-  },
-  beforeRouteEnter(to, from, next) {
-    next((vm) => {
-      vm.reset()
-    })
   }
 }
 </script>

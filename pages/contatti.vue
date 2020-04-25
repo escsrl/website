@@ -45,7 +45,8 @@
 
 <script>
 export default {
-  name: 'Contatti'
+  name: 'Contatti',
+  layout: 'noservices'
 }
 </script>
 

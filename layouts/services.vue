@@ -21,20 +21,12 @@ body {
 }
 </style>
 <script>
-import { call } from 'vuex-pathify'
 import Navbar from '../components/Navbar'
 import ServicesVue from '../components/Services'
 import EscFooter from '../components/Footer'
 import ScrollToTop from '../components/ScrollToTop'
 export default {
   components: { ScrollToTop, EscFooter, ServicesVue, Navbar },
-  middleware: 'resetServices',
-  methods: {
-    reset: call('service/reset')
-  },
-  beforeRouteLeave(to, from, next) {
-    this.reset()
-    next()
-  }
+  middleware: 'resetServices'
 }
 </script>
