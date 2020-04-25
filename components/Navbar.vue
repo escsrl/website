@@ -14,11 +14,6 @@
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
         <b-nav-item class="nav-item voce_menu" href="#" to="/">HOME</b-nav-item>
-        <b-nav-item
-          class="nav-item voce_menu"
-          :to="{ path: '/', hash: '#chi_siamo' }"
-          >CHI SIAMO</b-nav-item
-        >
 
         <b-nav-item-dropdown text="SERVIZI" right class="voce_menu">
           <b-dropdown-item class="voce_sottomenu" to="/integrazioni-gestionali"
