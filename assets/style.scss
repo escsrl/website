@@ -354,6 +354,16 @@ a {
   }
 }
 
+.navbar .voce_sottomenu {
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+
+  &:hover {
+    color: #e7007e;
+  }
+}
+
 .navbar-brand img {
   margin-left: 120px;
 }
@@ -415,7 +425,7 @@ a {
   text-align: center;
   text-decoration: none;
   position: fixed;
-  bottom: 90px;
+  bottom: 50px;
   right: 20px;
   background: url('/img/index/arrow_up.png');
   opacity: 0.75;
@@ -908,13 +918,6 @@ a {
 
   .footer_icone {
     padding-right: 70px;
-
-    .sfondoCerchio {
-      width: 50px;
-      height: 50px;
-      margin: 5px;
-      font-size: 26px;
-    }
   }
 
   .barretta {
@@ -1273,13 +1276,6 @@ a {
 
   .footer img {
     width: 100%;
-  }
-
-  .footer_icone .sfondoCerchio {
-    width: 50px;
-    height: 50px;
-    margin: 5px;
-    font-size: 26px;
   }
 
   .navbar-brand img {
@@ -1812,13 +1808,6 @@ a {
 
   .footer_icone {
     justify-content: center;
-
-    .sfondoCerchio {
-      width: 50px;
-      height: 50px;
-      margin: 5px;
-      font-size: 26px;
-    }
   }
 }
 
@@ -1856,13 +1845,6 @@ a {
 
   .footer_icone {
     justify-content: center;
-
-    .sfondoCerchio {
-      width: 40px;
-      height: 40px;
-      margin: 5px;
-      font-size: 20px;
-    }
   }
 
   /*BOTTONE TORNA SU*/

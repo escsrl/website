@@ -21,17 +21,21 @@
         >
 
         <b-nav-item-dropdown text="SERVIZI" right class="voce_menu">
-          <b-dropdown-item to="/integrazioni-gestionali"
+          <b-dropdown-item class="voce_sottomenu" to="/integrazioni-gestionali"
             >INTEGRAZIONI GESTIONALI</b-dropdown-item
           >
-          <b-dropdown-item to="/webapp">WEB APPLICATIONS</b-dropdown-item>
-          <b-dropdown-item to="/data"
+          <b-dropdown-item class="voce_sottomenu" to="/webapp"
+            >WEB APPLICATIONS</b-dropdown-item
+          >
+          <b-dropdown-item class="voce_sottomenu" to="/data"
             >DATA CLEANER / GOVERNANCE / QUALITY</b-dropdown-item
           >
-          <b-dropdown-item to="/bi"
+          <b-dropdown-item class="voce_sottomenu" to="/bi"
             >BUSINESS INTELLIGENCE SELF SERVICE</b-dropdown-item
           >
-          <b-dropdown-item to="/sap">SVILUPPO CUSTOM SAP</b-dropdown-item>
+          <b-dropdown-item class="voce_sottomenu" to="/sap"
+            >SVILUPPO CUSTOM SAP</b-dropdown-item
+          >
         </b-nav-item-dropdown>
         <b-nav-item class="nav-item voce_menu" href="#" to="/contatti"
           >CONTATTI</b-nav-item
