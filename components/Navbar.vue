@@ -1,11 +1,7 @@
 <template>
   <b-navbar class="navbar" toggleable="lg" sticky>
     <b-navbar-brand href="#" to="/">
-      <img
-        src="https://test.esconsulting.it/img/common/logo_esc.png"
-        height="40"
-        alt="ESC"
-      />
+      <img src="/img/common/logo_esc.png" height="40" alt="ESC" />
     </b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
