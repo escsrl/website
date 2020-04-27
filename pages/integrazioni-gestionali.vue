@@ -35,17 +35,17 @@
           consolidare e coordinare i servizi in<br />
           ambiente enterprise.
         </p>
-        <p class="pt-md-5 pt-sm-3 pt-2 mb-md-1 ">
-          <i>Strumento:</i>
-        </p>
-
-        <div class="col-12 text center pt-md-0 mb-xl-4 pentaho">
-          <a
-            href="https://community.hitachivantara.com/docs/DOC-1009855-data-integration-kettle"
-            target="_blank"
-          >
-            <img src="/img/service/pentaho_logo.png" alt="Pentaho" />
-          </a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div
+          class="d-flex justify-content-around flex-wrap align-items-stretch"
+        >
+          <div v-for="card in cards" :key="card.key" class="mb-3">
+            <case-history-card :title="card.title" :content="card.content">
+            </case-history-card>
+          </div>
         </div>
       </div>
     </div>
@@ -55,10 +55,161 @@
 <script>
 import { sync } from 'vuex-pathify'
 import HeroSection from '../components/HeroSection'
+import CaseHistoryCard from '../components/CaseHistoryCard'
 export default {
   name: 'IntegrazioniGestionali',
-  components: { HeroSection },
+  components: { CaseHistoryCard, HeroSection },
   layout: 'services',
+  data() {
+    return {
+      cards: [
+        {
+          key: 0,
+          title: 'Integrazione SAP R3 e SALESFORCE CRM',
+          content:
+            'Nello sviluppo dell’integrazione di questi due applicativi abbiamo avuto modo di\n' +
+            '                  approfondire la diversità delle due architetture a confronto,le specificità di una\n' +
+            '                  piattaforma in Cloud PaaS quale quella di SALESFORCE, la gestione del flusso dati\n' +
+            '                  attraverso funzioni ETL, la conversione dei dati e le diverse tipologie di\n' +
+            '                  integrazione realizzate sia di tipo Batch che on-line.'
+        },
+        {
+          key: 1,
+          title: 'Integrazione SAP R3 e PRESENZE WEB',
+          content:
+            'Questa integrazione si è resa necessaria per evitare la doppia gestione\n' +
+            '                  dell’anagrafica Dipendenti nell’applicativo PRESENZE WEB di TPC&Join S.r.l.\n' +
+            '                  (<a href="http://www.tpc.it" class="fontGrayText"\n' +
+            '                      target="_blank">http://www.tpc.it</a>)\n' +
+            '                  per la gestione delle risorse umane. La funzione principale dell’applicazione\n' +
+            '                  viene eseguita su richiesta dell’utente e prevede l’estrazione dei dati dei\n' +
+            '                  dipendenti dal modulo HR di SAP, il controllo per differenza dei dati estratti\n' +
+            '                  nell’ultimo trasferimento effettuato, ne completa i dati per poi generare le\n' +
+            '                  corrispondenti anagrafiche o aggiornamenti delle pre-esistenti.'
+        },
+        {
+          key: 2,
+          title:
+            'Integrazione tra anagrafiche Salesforce e i nominativi raccolti dal\n' +
+            '                  Marketing',
+          content:
+            'Attraverso specifiche procedure ETL abbiamo attivato funzioni di Cleaning,\n' +
+            '                  conversione e completamento dei contatti raccolti nelle attività di marketing per\n' +
+            '                  comporre l’input necessario per l’importazione dati per le tre tipologie\n' +
+            '                  anagrafiche previste in Salesforce (Leads, Contact, Account).'
+        },
+        {
+          key: 3,
+          title:
+            'Integrazione SAP R/3 - PLM e MDM (Master Data Management) IBM',
+          content:
+            'Negli anni si è notato che la stessa informazione veniva replicata su più sistemi\n' +
+            '                  manualmente e quindi con lo stesso dato scritto in maniera diversa.<br/>\n' +
+            '                  Tramite l’utilizzo di ETL si è provveduto a gestire il dato dal proprietario ad un\n' +
+            '                  accentratore di informazioni e certificatore delle stese per la distribuzione su\n' +
+            '                  vari sistemi.<br/>\n' +
+            '                  In particolare il dato tecnico viene preso da un PLM e il dato gestionale da SAP\n' +
+            '                  R/3, le informazioni vengono poi ridistribuite nei vari sistemi (PLM;SAP;WEB;ECC…)'
+        },
+        {
+          key: 4,
+          title: 'Integrazione gestionali con Microsoft Power BI',
+          content:
+            'Tramite l’utilizzo di ETL e grazie ai numerosi connettori presenti all’interno\n' +
+            '                  dello strumento Microsoft Power BI si è provveduto a costruire vere e proprie\n' +
+            '                  business intelligence, raccogliendo dati provenienti da fonti diversificate\n' +
+            '                  (gestionali come Sigla++, SAP B1e SAP R3; WMS come Stocksystem di Replica\n' +
+            '                  Sistemi; MES come net@pro di Qualitas; Excel; DB di Access) per generare report\n' +
+            '                  dinamici e dashboard presentate in monitor installati sulle linee di montaggio o\n' +
+            '                  da distribuire a varie funzioni dell’azienda.<br/>\n' +
+            '                  Sono state coperte aree finanziarie con analisi dei costi/ricavi e flussi di\n' +
+            '                  cassa, contabili, di budgeting e controllo KPI oltre che strumenti di controllo\n' +
+            '                  del flusso attivo e passivo.'
+        },
+        {
+          key: 5,
+          title:
+            'Scambio documenti bidirezionale tra 2 gestionali diversi Sigla++ e SAP\n' +
+            '                  B1',
+          content:
+            "L'implementazione richiedeva la comunicazione tra i 2 gestionali presenti in azienda per\n" +
+            '                  mantenere allineate le giacenza di magazzino ed il flusso documentale, l’esigenza\n' +
+            '                  è nata perché su SIGLA++ si gestisce la produzione/magazzino mentre si SAP B1 la\n' +
+            '                  parte commerciale/amministrativa.<br/>\n' +
+            '                  Tramite ETL e programmi scritti ad hoc i due sistemi si passano informazioni in\n' +
+            '                  tempo reale in modo che per l’utente finale risulti tutto trasparente senza dover\n' +
+            '                  intervenire per la duplicazione delle informazioni.<br/>\n' +
+            '                  Per importare documenti in SAP B1 abbiamo utilizzato lo strumento SAP Data\n' +
+            '                  Transfer Workbench, che fornisce dei template per l’importazione ed abbiamo\n' +
+            '                  prodotto i file da importare tramite ETL.'
+        },
+        {
+          key: 6,
+          title:
+            'Integrazione SIGLA++ (gestionale) con produzione personalizzata',
+          content:
+            'Il cliente ha sollevato la necessità di gestire tutto il ciclo passivo in maniera\n' +
+            '                  del tutto personalizzata quindi si è deciso di creare un’applicazione WEB che si\n' +
+            '                  sincronizza con il gestionale per le anagrafiche di base, permette di integrarle\n' +
+            '                  con dati personalizzati e di gestire i documenti da qualsiasi strumento e\n' +
+            '                  sincronizzare il flusso documentale generato dalla WEBAPP con il gestionale.'
+        },
+        {
+          key: 7,
+          title:
+            'Integrazione gestionale con cartelli elettronici per negozi al dettaglio',
+          content:
+            'L’esigenza del cliente è quella di tenere sincronizzati, per ogni articolo, i\n' +
+            '                  prezzi, le promozioni, le giacenze e consistenze nei vari magazzino per essere poi\n' +
+            '                  esposti sugli scaffali.<br/>\n' +
+            '                  Tramite un programma sempre in ascolto sul server principale dell’azienda vengono\n' +
+            '                  applicate determinate regole a seconda del tipo di articolo e della promozione,\n' +
+            '                  ogni trenta minuti vengono lette le informazioni aggiornate dal gestionale per\n' +
+            '                  essere poi inviate ad ogni singolo cartellino elettronico presente in negozio ed\n' +
+            '                  associato ognuno al proprio articolo.<br/>\n' +
+            '                  Questa soluzione evita di ristampare ogni volta dei cartellini per ogni articoli,\n' +
+            '                  applicarli allo scaffale e tenerli costantemente aggiornati.'
+        },
+        {
+          key: 8,
+          title: 'SAP R/3 Flussi/Ordini METEL',
+          content:
+            'L’esigenza del cliente è quella di gestire il flusso giornaliero dei dati da e\n' +
+            '                  verso METEL.<br/>\n' +
+            '                  E’ stato creato in SAP un cruscotto per importare gli ordini cliente provenienti\n' +
+            '                  da METEL, in modo da poterli visualizzare ed eventualmente modificare prima che\n' +
+            '                  vengano importati in SAP. E’ possibile visualizzare le note del cliente, e\n' +
+            '                  modificare gli importi richiesti dal cliente secondo le logiche interne. Sono\n' +
+            '                  stati inoltre sviluppati altri cruscotti per esportare in maniera automatica le\n' +
+            '                  fatture e il listino prezzi.'
+        },
+        {
+          key: 9,
+          title: 'SAP R/3 Ordini WEB',
+          content:
+            'L’esigenza del cliente è quella di consentire una rapida immissione degli ordini\n' +
+            '                  cliente in SAP direttamente al cliente o all’agente, senza passare dal back\n' +
+            '                  office.<br/>\n' +
+            '                  Abbiamo sviluppato un’interfaccia che consentisse l’inserimento dei dati via web,\n' +
+            '                  in maniera molto rapida e con la possibilità di importare un file di testo creato\n' +
+            '                  direttamente dal gestionale del cliente.<br/>\n' +
+            '                  E’ stato poi creato un monitor degli ordini per verificarli e controllarli prima\n' +
+            '                  di crearli in automatico su SAP, velocizzando così il lavoro del back office.'
+        },
+        {
+          key: 10,
+          title: 'SAP R3 e ShapePlus',
+          content:
+            'Per gestire al meglio il flusso di vita utile di un articolo all’interno di SAP\n' +
+            '                  R3, sono state costruite tramite sviluppi ad hoc una serie di interazioni con lo\n' +
+            '                  strumento Shape+ (link alla pagina shape+) .<br/>\n' +
+            '                  Questo ha permesso all’azienda di snellire e velocizzare le varie attività di\n' +
+            '                  creazione e gestione di un articolo, oltre che poterne controllare la coerenza\n' +
+            '                  rispetto alle regole aziendali.'
+        }
+      ]
+    }
+  },
   computed: {
     keyToOmit: sync('service/keyToOmit')
   },
