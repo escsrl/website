@@ -1,6 +1,10 @@
 @import "~vue2-animate/src/sass/vue2-animate.scss";
 @import "carousel.scss";
 
+html {
+  overflow-x: hidden;
+}
+
 a {
   color: white;
 
