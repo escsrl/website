@@ -79,8 +79,8 @@ export default {
           content:
             'Questa integrazione si è resa necessaria per evitare la doppia gestione\n' +
             '                  dell’anagrafica Dipendenti nell’applicativo PRESENZE WEB di TPC&Join S.r.l.\n' +
-            '                  (<a href="http://www.tpc.it" class="fontGrayText"\n' +
-            '                      target="_blank">http://www.tpc.it</a>)\n' +
+            '                  (<a href="http://www.tpc.it" class="fontPinkText"\n' +
+            '                      target="_blank">www.tpc.it</a>)\n' +
             '                  per la gestione delle risorse umane. La funzione principale dell’applicazione\n' +
             '                  viene eseguita su richiesta dell’utente e prevede l’estrazione dei dati dei\n' +
             '                  dipendenti dal modulo HR di SAP, il controllo per differenza dei dati estratti\n' +
@@ -106,7 +106,7 @@ export default {
             'Negli anni si è notato che la stessa informazione veniva replicata su più sistemi\n' +
             '                  manualmente e quindi con lo stesso dato scritto in maniera diversa.<br/>\n' +
             '                  Tramite l’utilizzo di ETL si è provveduto a gestire il dato dal proprietario ad un\n' +
-            '                  accentratore di informazioni e certificatore delle stese per la distribuzione su\n' +
+            '                  accentratore di informazioni e certificatore delle stesse per la distribuzione su\n' +
             '                  vari sistemi.<br/>\n' +
             '                  In particolare il dato tecnico viene preso da un PLM e il dato gestionale da SAP\n' +
             '                  R/3, le informazioni vengono poi ridistribuite nei vari sistemi (PLM;SAP;WEB;ECC…)'
@@ -202,7 +202,7 @@ export default {
           content:
             'Per gestire al meglio il flusso di vita utile di un articolo all’interno di SAP\n' +
             '                  R3, sono state costruite tramite sviluppi ad hoc una serie di interazioni con lo\n' +
-            '                  strumento Shape+ (link alla pagina shape+) .<br/>\n' +
+            '                  strumento Shape+ (<a href="https://shape-plus.it/" class="fontPinkText" target="_blank">www.shape-plus.it</a>).<br/>\n' +
             '                  Questo ha permesso all’azienda di snellire e velocizzare le varie attività di\n' +
             '                  creazione e gestione di un articolo, oltre che poterne controllare la coerenza\n' +
             '                  rispetto alle regole aziendali.'

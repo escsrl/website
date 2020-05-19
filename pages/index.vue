@@ -33,24 +33,12 @@
           class="col-10 text-center mx-auto fontSizeText fontLatoRegular fontGrayText"
         >
           <p>
-            ESC nasce nel 2003 come gruppo di professionisti e consulenti
-            tecnici specializzati nel fornire ai clienti supporto strategico e
-            tecnologico nello sviluppo di soluzioni legate ai dati.
-          </p>
-          <p class="pt-md-2 pt-sm-3 pt-2">
-            La partnership con <b>Zend Technologies</b> ci ha permesso, nel
-            2009, di diventare un importante punto di riferimento nel campo
-            dello sviluppo di applicazioni web in ambiente PHP.
-          </p>
-          <p class="pt-paragrafo pb-paragrafo pt-sm-3 pt-2">
-            Dopo aver maturato esperienza nello sviluppo di applicazione
-            <b>ABAP</b> seguendo i processi di innovazione all’interno
-            dell’ecosistema <b>SAP</b>, le nostre competenze web ci hanno
-            portato ad utilizzare <b>SAPUI5</b> come piattaforma di sviluppo di
-            applicazioni aziendali.
-            <br />
-            Con SAPUI5 le applicazioni sono ora responsive a tutti i browser e
-            dispositivi, garantendo la massima libertà di movimento.
+            ESC Enterprise Software Consulting società di consulenza gestionale
+            ed informatica, che dal 2003 offre al mercato progetti in grado di
+            trasformare i processi aziendali obsoleti, lenti e a basso valore
+            aggiunto in nuovi punti di forza, competitività e redditività,
+            attraverso la valorizzazione dei dati, sviluppando soluzioni per
+            avviare cambiamenti sostenibili nell’ecosistema azienda.
           </p>
         </div>
       </div>
