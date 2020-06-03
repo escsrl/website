@@ -34,11 +34,12 @@
         >
           <p>
             ESC Enterprise Software Consulting società di consulenza gestionale
-            ed informatica, che dal 2003 offre al mercato progetti in grado di
-            trasformare i processi aziendali obsoleti, lenti e a basso valore
-            aggiunto in nuovi punti di forza, competitività e redditività,
-            attraverso la valorizzazione dei dati, sviluppando soluzioni per
-            avviare cambiamenti sostenibili nell’ecosistema azienda.
+            ed informatica, dal 2003, offre al mercato progetti di
+            trasformazione dei processi e valorizzazione dei dati. Le nostre
+            soluzioni sono sostenibili, non invasive ma saldamente integrate
+            nell’ecosistema azienda con tre presupposti fondamentali: non
+            replicare il passato, non anticipare il futuro, soddisfare il
+            presente.
           </p>
         </div>
       </div>
