@@ -65,7 +65,7 @@ export default {
       cards: [
         {
           key: 0,
-          title: 'Integrazione SAP R3 e SALESFORCE CRM',
+          title: 'Integrazione SAP R/3 e SALESFORCE CRM',
           content:
             'Nello sviluppo dell’integrazione di questi due applicativi abbiamo avuto modo di\n' +
             '                  approfondire la diversità delle due architetture a confronto,le specificità di una\n' +
@@ -75,7 +75,7 @@ export default {
         },
         {
           key: 1,
-          title: 'Integrazione SAP R3 e PRESENZE WEB',
+          title: 'Integrazione SAP R/3 e PRESENZE WEB',
           content:
             'Questa integrazione si è resa necessaria per evitare la doppia gestione\n' +
             '                  dell’anagrafica Dipendenti nell’applicativo PRESENZE WEB di TPC&Join S.r.l.\n' +
@@ -118,7 +118,7 @@ export default {
             'Tramite l’utilizzo di ETL e grazie ai numerosi connettori presenti all’interno\n' +
             '                  dello strumento Microsoft Power BI si è provveduto a costruire vere e proprie\n' +
             '                  business intelligence, raccogliendo dati provenienti da fonti diversificate\n' +
-            '                  (gestionali come Sigla++, SAP B1e SAP R3; WMS come Stocksystem di Replica\n' +
+            '                  (gestionali come Sigla++, SAP Business One e SAP R/3; WMS come Stocksystem di Replica\n' +
             '                  Sistemi; MES come net@pro di Qualitas; Excel; DB di Access) per generare report\n' +
             '                  dinamici e dashboard presentate in monitor installati sulle linee di montaggio o\n' +
             '                  da distribuire a varie funzioni dell’azienda.<br/>\n' +
@@ -130,16 +130,16 @@ export default {
           key: 5,
           title:
             'Scambio documenti bidirezionale tra 2 gestionali diversi Sigla++ e SAP\n' +
-            '                  B1',
+            'Business One',
           content:
             "L'implementazione richiedeva la comunicazione tra i 2 gestionali presenti in azienda per\n" +
             '                  mantenere allineate le giacenza di magazzino ed il flusso documentale, l’esigenza\n' +
-            '                  è nata perché su SIGLA++ si gestisce la produzione/magazzino mentre si SAP B1 la\n' +
+            '                  è nata perché su SIGLA++ si gestisce la produzione/magazzino mentre si SAP Business One la\n' +
             '                  parte commerciale/amministrativa.<br/>\n' +
             '                  Tramite ETL e programmi scritti ad hoc i due sistemi si passano informazioni in\n' +
             '                  tempo reale in modo che per l’utente finale risulti tutto trasparente senza dover\n' +
             '                  intervenire per la duplicazione delle informazioni.<br/>\n' +
-            '                  Per importare documenti in SAP B1 abbiamo utilizzato lo strumento SAP Data\n' +
+            '                  Per importare documenti in SAP Business One abbiamo utilizzato lo strumento SAP Data\n' +
             '                  Transfer Workbench, che fornisce dei template per l’importazione ed abbiamo\n' +
             '                  prodotto i file da importare tramite ETL.'
         },
@@ -198,14 +198,29 @@ export default {
         },
         {
           key: 10,
-          title: 'SAP R3 e ShapePlus',
+          title: 'SAP R/3 e ShapePlus',
           content:
             'Per gestire al meglio il flusso di vita utile di un articolo all’interno di SAP\n' +
-            '                  R3, sono state costruite tramite sviluppi ad hoc una serie di interazioni con lo\n' +
+            '                  R/3, sono state costruite tramite sviluppi ad hoc una serie di interazioni con lo\n' +
             '                  strumento Shape+ (<a href="https://shape-plus.it/" class="fontPinkText" target="_blank">www.shape-plus.it</a>).<br/>\n' +
             '                  Questo ha permesso all’azienda di snellire e velocizzare le varie attività di\n' +
             '                  creazione e gestione di un articolo, oltre che poterne controllare la coerenza\n' +
             '                  rispetto alle regole aziendali.'
+        },
+        {
+          key: 11,
+          title:
+            'Integrazione tra piattaforma ECommerce Shopify e SAP Business One',
+          content:
+            'L’esigenza era quella di far comunicare la piattaforma di ECommerce Shopify e il gestionale SAP Business One, importando gli ordini dal web e aggiornando la giacenza della merce sulla piattaforma web.<br />' +
+            'Utilizzando le API di Shopify abbiamo gestito il flusso dati da e verso la piattaforma web, mentre per importare i corrispettivi in SAP Business One abbiamo utilizzato lo strumento SAP Data Transfer Workbench, che fornisce dei template per l’importazione ed abbiamo prodotto i file da importare tramite ETL.'
+        },
+        {
+          key: 12,
+          title: 'Creazione data warehouse aziendale per statistiche aziendali',
+          content:
+            'L’esigenza del cliente era di creare un unico data warehouse aziendale, incorporando i dati provenienti da ERP differenti (ACG, Galileo, SAP R/3) legati alle diverse società del gruppo.<br/>' +
+            'Tramite l’utilizzo di trasformazioni ETL ogni giorno i dati vengono storicizzati e accodati, creando un’unica view dei dati del gruppo. Tramite Microsoft Power BI sono state poi preparate le dashboard necessarie per la visualizzazione e l’interrogazione dei dati.'
         }
       ]
     }
