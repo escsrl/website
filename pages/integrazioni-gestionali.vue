@@ -217,7 +217,7 @@ export default {
         },
         {
           key: 12,
-          title: 'Creazione data warehouse aziendale per statistiche aziendali',
+          title: 'Creazione data warehouse per statistiche aziendali',
           content:
             'L’esigenza del cliente era di creare un unico data warehouse aziendale, incorporando i dati provenienti da ERP differenti (ACG, Galileo, SAP R/3) legati alle diverse società del gruppo.<br/>' +
             'Tramite l’utilizzo di trasformazioni ETL ogni giorno i dati vengono storicizzati e accodati, creando un’unica view dei dati del gruppo. Tramite Microsoft Power BI sono state poi preparate le dashboard necessarie per la visualizzazione e l’interrogazione dei dati.'
