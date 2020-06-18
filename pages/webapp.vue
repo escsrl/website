@@ -65,7 +65,7 @@
 
             <!-- Download broschure -->
             <nuxt-link
-              to="/brochure/Esc_Presentazione_PBI.pdf"
+              to="/brochure/Esc_Shape_Plus_Presentation.pdf"
               target="_blank"
               class="box_download"
               style="margin-top: 5%;"
