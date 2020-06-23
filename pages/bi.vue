@@ -98,7 +98,7 @@
       <div
         class="col-12 text-center fontSizeTitle fontLatoBlack fontPinkText text-uppercase"
       >
-        Case history
+        Demo
       </div>
     </div>
 
@@ -115,17 +115,6 @@
             <div class="testo fontGrayText">
               Demo
               <div class="underline">Fatturato</div>
-            </div>
-          </a>
-          <a
-            href="https://app.powerbi.com/view?r=eyJrIjoiMzM5Mzk0ZDYtMDljZC00ZGQyLWFhOTItNDc2NTJhYWE4OWEwIiwidCI6ImUzZGM5NmY4LTU4YWQtNDM5ZC1iNTc4LWFjMzBmZjQ3OTQ0MSIsImMiOjh9"
-            target="_blank"
-            class="box_example"
-          >
-            <img src="/img/common/mdm_icon.png" />
-            <div class="testo fontGrayText">
-              Demo
-              <div class="underline">Ciclo Attivo</div>
             </div>
           </a>
           <a

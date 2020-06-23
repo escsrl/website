@@ -15,40 +15,78 @@
         integrazioni gestionali
       </div>
     </div>
-    <div
-      class="row pt-md-5 pb-md-5 pt-sm-3 pb-sm-3 pt-3 pb-3 mb-xl-5 text-center"
-    >
-      <div
+    <b-container class="text-center">
+      <b-row
         class="col-10 text-center mx-auto fontSizeText fontLatoRegular fontGrayText"
       >
         <p>
           I nostri progetti di data integration mirano a migliorare la gestione
-          dei dati, la raccolta,<br />
-          l’elaborazione e lo scambio di informazioni attraverso processi che
-          garantiscano la qualità<br />
-          del dato. Il risultato è ottenuto tramite tools open source che
-          agevolano la generazione di nuove<br />
-          informazioni a partire da dati provenienti da fonti diverse.<br />
-          Per le integrazione tra applicazioni ci serviamo di strumenti software
-          che migliorano<br />
-          l'interoperabilità tra diversi sistemi al fine di modernizzare,
-          consolidare e coordinare i servizi in<br />
-          ambiente enterprise.
+          dei dati, la raccolta, <br />l’elaborazione e lo scambio di
+          informazioni attraverso processi che garantiscano la qualità del
+          dato.<br />
+          Per le integrazioni tra applicazioni utilizziamo software che
+          migliorano l'interoperabilità <br />tra diversi sistemi al fine di
+          modernizzare, consolidare e coordinare i servizi.
         </p>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div
+      </b-row>
+
+      <b-row align-v="center">
+        <b-col class="text-center">
+          <b-img
+            src="../static/img/integrazioni_gestionali/shopify.png"
+            fluid
+            class="text-center"
+          />
+        </b-col>
+        <b-col>
+          <b-img
+            src="../static/img/integrazioni_gestionali/sap_one.png"
+            fluid
+          />
+        </b-col>
+      </b-row>
+
+      <b-row align-v="center">
+        <b-col>
+          <b-img src="../static/img/integrazioni_gestionali/sap_r3.png" fluid />
+        </b-col>
+        <b-col>
+          <b-img src="../static/img/integrazioni_gestionali/sigla.png" fluid />
+        </b-col>
+        <b-col>
+          <b-img
+            src="../static/img/integrazioni_gestionali/power_bi.png"
+            fluid
+          />
+        </b-col>
+      </b-row>
+
+      <b-row align-v="center">
+        <b-col>
+          <b-img
+            src="../static/img/integrazioni_gestionali/sales_force.png"
+            fluid
+          />
+        </b-col>
+        <b-col>
+          <b-img
+            src="../static/img/integrazioni_gestionali/ibm_mdm.png"
+            fluid
+          />
+        </b-col>
+      </b-row>
+
+      <b-row class="pt-4">
+        <b-col
           class="d-flex justify-content-around flex-wrap align-items-stretch"
         >
           <div v-for="card in cards" :key="card.key" class="mb-3">
             <case-history-card :title="card.title" :content="card.content">
             </case-history-card>
           </div>
-        </div>
-      </div>
-    </div>
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 

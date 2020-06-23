@@ -19,32 +19,25 @@
       class="row pt-md-5 pb-md-5 pt-sm-3 pb-sm-3 pt-3 pb-3 mb-xl-5 text-center"
     >
       <div
+        class="col-12 missionSfida text-center fontLatoBlack fontPinkText text-uppercase pb-5"
+      >
+        PROGETTIAMO APPLICAZIONI SVILUPPATE <br />
+        SU MISURA PER GESTIRE LE TUE ESIGENZE
+      </div>
+      <div
         class="col-10 text-center mx-auto fontSizeText fontLatoRegular fontGrayText"
       >
         <p>
-          Per facilitare la gestione aziendale e garantire una maggior
-          fruibilità delle informazioni,<br />
-          sviluppiamo web application che garantiscono soluzioni ad alta
-          produttività ed efficienza. In<br />
-          maniera funzionale e semplice, infatti, tutti i dati necessari per
-          raggiungere gli obiettivi di<br />
-          business sono sempre disponibili online.
+          Di fronte a bisogni specifici possiamo pensare insieme ad un progetto
+          di miglioramento <br />creando sviluppiamo web application che
+          garantiscono soluzioni ad alta produttività ed efficienza. <br />In
+          modo maniera semplice ma efficace, infatti, realizziamo soluzioni su
+          misura valutate pensando sempre<br />
+          ad un ritorno di investimento in termini di tempo, flessibilità e
+          qualità.
         </p>
 
-        <!-- Download broschure -->
-        <nuxt-link
-          to="/brochure/web_architecture.pdf"
-          target="_blank"
-          class="click_link box_download"
-          style="margin-top: 5%;"
-        >
-          <img src="/img/common/pdf.png" />
-          <div class="testo fontGrayText">Scarica <br />la brochure</div>
-        </nuxt-link>
-
-        <div
-          class="col-12 text-center pb-shape mt-md-5 mt-sm-2 pt-sm-3 pb-md-8-esc web_app"
-        >
+        <div class="col-12 text-center pb-shape mt-md-5 mt-sm-2 pt-sm-3">
           <div class="row">
             <div
               class="col-12 text-center fontSizeTitle fontLatoBlack fontPinkText text-uppercase"
@@ -53,31 +46,32 @@
             </div>
           </div>
 
-          <div
-            class="col-12 text-center pb-shape mt-md-5 mt-sm-2 pt-sm-3 pb-md-8-esc web_app"
-          >
-            <div class="link fontGrayText">
-              <i>Visita il sito:</i>
-            </div>
-            <a href="https://shape-plus.it" target="_blank">
-              <img src="/img/service/shapeplus_logo.png" alt="Pentaho" />
-            </a>
-
-            <!-- Download broschure -->
-            <nuxt-link
-              to="/brochure/Esc_Presentazione_PBI.pdf"
-              target="_blank"
-              class="box_download"
-              style="margin-top: 5%;"
-            >
-              <img src="/img/common/pdf.png" />
-              <div class="testo fontGrayText">
-                Scarica <br />la brochure di <br /><span class="underline"
-                  >Shape+</span
+          <b-container class="text-center">
+            <b-row class="pt-4">
+              <b-col>
+                <!-- Download broschure -->
+                <nuxt-link
+                  to="/brochure/web_architecture.pdf"
+                  target="_blank"
+                  class="click_link box_download"
+                  style="margin-top: 5%;"
                 >
-              </div>
-            </nuxt-link>
-          </div>
+                  <img src="/img/common/pdf.png" />
+                  <div class="testo fontGrayText">
+                    Scarica <br />la brochure
+                  </div>
+                </nuxt-link>
+              </b-col>
+              <b-col>
+                <div class="link fontGrayText">
+                  <i>Visita il sito:</i>
+                </div>
+                <a href="https://shape-plus.it" target="_blank">
+                  <img src="/img/service/shapeplus_logo.png" alt="Pentaho" />
+                </a>
+              </b-col>
+            </b-row>
+          </b-container>
         </div>
       </div>
     </div>
