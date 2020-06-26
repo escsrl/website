@@ -24,11 +24,11 @@
         <p>
           Ottenere e mantenere la qualità del dato è un fattore determinante ed
           imprescindibile per<br />
-          affrontare e incrementare attività di business. Le soluzioni da noi
-          proposte mirano a sviluppare<br />
-          un ciclo continuo e regolare per mantenere i dati legacy fino alla
-          massima qualità, integrità e<br />
-          coerenza standard.
+          affrontare ed incrementare attività di business.
+          <br />
+          Le soluzioni da noi proposte mirano a sviluppare un ciclo continuo e
+          regolare per mantenere i dati legacy <br />fino alla massima qualità,
+          integrità e coerenza standard.
         </p>
         <p class="pt-md-5 pt-sm-3 pt-2 mb-md-1 ">
           <i>Strumento:</i>

@@ -15,9 +15,11 @@
         integrazioni gestionali
       </div>
     </div>
-    <b-container class="text-center">
+    <b-container
+      class="text-center pt-md-5 pb-md-5 pt-sm-3 pb-sm-3 pt-3 pb-3 mb-xl-5"
+    >
       <b-row
-        class="col-10 text-center mx-auto fontSizeText fontLatoRegular fontGrayText"
+        class="col-9 text-center mx-auto fontSizeText fontLatoRegular fontGrayText"
       >
         <p>
           I nostri progetti di data integration mirano a migliorare la gestione
@@ -25,7 +27,7 @@
           informazioni attraverso processi che garantiscano la qualità del
           dato.<br />
           Per le integrazioni tra applicazioni utilizziamo software che
-          migliorano l'interoperabilità <br />tra diversi sistemi al fine di
+          migliorano l'interoperabilità tra diversi sistemi al fine di
           modernizzare, consolidare e coordinare i servizi.
         </p>
       </b-row>

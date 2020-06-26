@@ -21,15 +21,13 @@
         class="row pt-md-5 pb-md-5 pt-sm-3 pb-sm-3 pt-3 pb-3 mb-xl-5 text-center"
       >
         <div
-          class="col-10 text-center mx-auto fontSizeText fontLatoRegular fontGrayText"
+          class="col-9 text-center mx-auto fontSizeText fontLatoRegular fontGrayText"
         >
           <p>
             Mettiamo a disposizione le nostre tecniche e competenze per
-            permettere all’utente finale di<br />
-            ottenere le informazioni il prima possibile e nella maniera più
-            semplice possibile, senza il<br />
-            supporto continuo del personale informatico. Un modo innovativo,
-            quindi, di definire la<br />
+            permettere all’utente finale di ottenere le informazioni in modo
+            semplice e di facile lettura, senza il supporto continuo del
+            personale informatico. <br />Un modo innovativo, di definire la
             reportistica e l'analisi dei dati per soddisfare bisogni e
             flessibilità di ogni fruitore.<br />
           </p>
