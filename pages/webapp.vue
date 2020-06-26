@@ -19,22 +19,12 @@
       class="row pt-md-5 pb-md-5 pt-sm-3 pb-sm-3 pt-3 pb-3 mb-xl-5 text-center"
     >
       <div
-        class="col-12 missionSfida text-center fontLatoBlack fontPinkText text-uppercase pb-5"
-      >
-        PROGETTIAMO APPLICAZIONI SVILUPPATE <br />
-        SU MISURA PER GESTIRE LE TUE ESIGENZE
-      </div>
-      <div
         class="col-10 text-center mx-auto fontSizeText fontLatoRegular fontGrayText"
       >
         <p>
-          Di fronte a bisogni specifici possiamo pensare insieme ad un progetto
-          di miglioramento <br />creando sviluppiamo web application che
-          garantiscono soluzioni ad alta produttività ed efficienza. <br />In
-          modo maniera semplice ma efficace, infatti, realizziamo soluzioni su
-          misura valutate pensando sempre<br />
-          ad un ritorno di investimento in termini di tempo, flessibilità e
-          qualità.
+          Progettiamo applicazioni sviluppate per gestire le tue esigenze.<br />
+          In maniera semplice ed efficace, realizziamo soluzioni su misura,
+          pensando sempre a offrire la massima qualità e flessibilità<br />
         </p>
 
         <div class="col-12 text-center pb-shape mt-md-5 mt-sm-2 pt-sm-3">
