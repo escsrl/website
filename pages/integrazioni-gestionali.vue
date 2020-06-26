@@ -22,13 +22,11 @@
         class="col-9 text-center mx-auto fontSizeText fontLatoRegular fontGrayText"
       >
         <p>
-          I nostri progetti di data integration mirano a migliorare la gestione
-          dei dati, la raccolta, <br />l’elaborazione e lo scambio di
-          informazioni attraverso processi che garantiscano la qualità del
-          dato.<br />
-          Per le integrazioni tra applicazioni utilizziamo software che
-          migliorano l'interoperabilità tra diversi sistemi al fine di
-          modernizzare, consolidare e coordinare i servizi.
+          I nostri progetti di Data Integration automatizzano i processi di
+          elaborazione e lo scambio di informazioni tra gli applicativi.<br />
+          L’utilizzo di tools open source agevolano la trasformazione,
+          l'interoperabilità e la flessibilità gestionale di informazioni
+          provenienti da fonti dati diversificate.
         </p>
       </b-row>
 

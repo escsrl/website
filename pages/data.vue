@@ -22,13 +22,12 @@
         class="col-10 text-center mx-auto fontSizeText fontLatoRegular fontGrayText"
       >
         <p>
-          Ottenere e mantenere la qualità del dato è un fattore determinante ed
-          imprescindibile per<br />
-          affrontare ed incrementare attività di business.
-          <br />
-          Le soluzioni da noi proposte mirano a sviluppare un ciclo continuo e
-          regolare per mantenere i dati legacy <br />fino alla massima qualità,
-          integrità e coerenza standard.
+          La qualità del dato è un fattore determinante ed imprescindibile per
+          affrontare il futuro <br />
+          e incrementare le proprie attività di business.<br />
+          Le nostre soluzioni permettono di ottenere un ciclo continuo in grado
+          di identificare, <br />sistemare e mantenere l’integrità e la coerenza
+          dei dati a disposizione degli utenti.
         </p>
         <p class="pt-md-5 pt-sm-3 pt-2 mb-md-1 ">
           <i>Strumento:</i>

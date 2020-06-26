@@ -19,12 +19,15 @@
       class="row pt-md-5 pb-md-5 pt-sm-3 pb-sm-3 pt-3 pb-3 mb-xl-5 text-center"
     >
       <div
-        class="col-10 text-center mx-auto fontSizeText fontLatoRegular fontGrayText"
+        class="col-9 text-center mx-auto fontSizeText fontLatoRegular fontGrayText"
       >
         <p>
-          Progettiamo applicazioni sviluppate per gestire le tue esigenze.<br />
-          In maniera semplice ed efficace, realizziamo soluzioni su misura,
-          pensando sempre a offrire la massima qualità e flessibilità<br />
+          Per garantire una maggior fruibilità delle informazioni, sviluppiamo
+          “Web Application” <br />
+          che garantiscono soluzioni ad alta produttività ed efficienza
+          gestionale. <br />Direttamente dal browser e da qualsiasi dispositivo,
+          gestiamo informazioni e processi in maniera <br />semplice e
+          funzionale per chiunque, ovunque e in qualsiasi momento.
         </p>
 
         <div class="col-12 text-center pb-shape mt-md-5 mt-sm-2 pt-sm-3">

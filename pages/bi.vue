@@ -24,71 +24,38 @@
           class="col-9 text-center mx-auto fontSizeText fontLatoRegular fontGrayText"
         >
           <p>
-            Mettiamo a disposizione le nostre tecniche e competenze per
-            permettere all’utente finale di ottenere le informazioni in modo
-            semplice e di facile lettura, senza il supporto continuo del
-            personale informatico. <br />Un modo innovativo, di definire la
-            reportistica e l'analisi dei dati per soddisfare bisogni e
-            flessibilità di ogni fruitore.<br />
+            Mettiamo a disposizione le nostre competenze per definire una base
+            dati solida e certificata per consentire agli utenti di ottenere, in
+            autonomia e senza spreco di tempo, le risposte alle loro necessità
+            attraverso la flessibilità e semplicità d’uso di Power Bi.
           </p>
-          <p class="pt-lg-5 pt-xl-5 pt-xl-3 pt-sm-3 pt-2 mb-lg-1 ">
-            <i>Strumenti:</i>
+          <p class="pt-lg-5 pt-xl-5 pt-xl-3 pt-sm-3 pt-2 mb-lg-1">
+            <i>Visita il sito:</i>
           </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container container_business">
-      <div class="row pb-md-5 pb-sm-3 pb-3 mb-xl-5 text-center">
-        <div
-          class="col-sm-6 col-6 text-center business_images fontGrayText"
-          style="border-right: 1px solid #dedede; padding-bottom: 2%;"
-        >
-          <i>Visita il sito:</i>
-        </div>
-        <div
-          class="col-sm-6 col-6 text-center business_images fontGrayText"
-          style="padding-bottom: 2%;"
-        >
-          <i>Visita il sito:</i>
-        </div>
-
-        <div
-          class="col-sm-6 col-6 text-center business_images"
-          style="border-right: 1px solid #dedede;"
-        >
-          <a href="https://powerbi.microsoft.com/it-it/" target="_blank">
-            <img
-              class="powerbi"
-              src="/img/service/powerbi_logo.png"
-              alt="powerbi"
-            />
-          </a>
-        </div>
-        <div class="col-sm-6 col-6 text-center business_images">
-          <a href="https://www.metabase.com/" target="_blank">
-            <img
-              class="metabase"
-              src="/img/service/metabase_logo.png"
-              alt="metabase"
-            />
-          </a>
-        </div>
-
-        <!-- Download broschure -->
-        <nuxt-link
-          to="/brochure/Esc_Presentazione_PBI.pdf"
-          target="_blank"
-          class="box_download"
-          style="margin-top: 20%;"
-        >
-          <img src="/img/common/pdf.png" />
-          <div class="testo fontGrayText">
-            Scarica <br />la brochure di <br /><span class="underline"
-              >Power BI</span
+          <p class="pt-lg-5 pt-xl-5 pt-xl-3 pt-sm-3 pt-2 mb-lg-1">
+            <a href="https://powerbi.microsoft.com/it-it/" target="_blank">
+              <img
+                class="powerbi"
+                src="/img/service/powerbi_logo.png"
+                alt="powerbi"
+              />
+            </a>
+          </p>
+          <p class="pt-lg-5 pt-xl-5 pt-xl-3 pt-sm-3 pt-2 mb-lg-1">
+            <nuxt-link
+              to="/brochure/Esc_Presentazione_PBI.pdf"
+              target="_blank"
+              class="box_download"
             >
-          </div>
-        </nuxt-link>
+              <img src="/img/common/pdf.png" />
+              <div class="testo fontGrayText">
+                Scarica <br />la brochure di <br /><span class="underline"
+                  >Power BI</span
+                >
+              </div>
+            </nuxt-link>
+          </p>
+        </div>
       </div>
     </div>
 
