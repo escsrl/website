@@ -63,6 +63,26 @@
       <div
         class="col-12 text-center fontSizeTitle fontLatoBlack fontPinkText text-uppercase"
       >
+        Certificato
+      </div>
+
+      <div
+        class="col-9 text-center mx-auto fontSizeText fontLatoRegular fontGrayText"
+      >
+        <p class="pt-lg-5 pt-xl-5 pt-xl-3 pt-sm-3 pt-2 mb-lg-1">
+          <img
+            class="powerbi"
+            src="/img/bi/examPassed.png"
+            alt="certificato Esame Superato"
+            width="200"
+          />
+        </p>
+      </div>
+    </div>
+    <div class="row pt-5">
+      <div
+        class="col-12 text-center fontSizeTitle fontLatoBlack fontPinkText text-uppercase"
+      >
         Demo
       </div>
     </div>
