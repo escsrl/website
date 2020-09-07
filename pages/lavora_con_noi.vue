@@ -26,7 +26,7 @@
         <div class="row pt-contatti pb-contatti">
           <div class="col-12 text-left fontSizeText fontGrayText">
             <p>
-              Siamo alla ricerca di due svilupattori da inserire nel nostro
+              Siamo alla ricerca di due sviluppatori da inserire nel nostro
               team:<br />
             </p>
             <p><b>Full Stack Developer - Senior</b><br /></p>
