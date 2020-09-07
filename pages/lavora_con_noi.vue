@@ -54,7 +54,7 @@
             <p class="link">
               Se hai queste caratteristiche invia il curriculum a
               <a
-                href="mailto:info@esconsulting.it?subject=CANDIDATURA - DEVELOPER - SENIOR"
+                href="mailto:info@esconsulting.it?subject=CANDIDATURA - FULL STACK DEVELOPER - JUNIOR"
                 target="_blank"
               >
                 <u>info@esconsulting.it</u>
@@ -77,7 +77,7 @@
             <p class="link">
               Se hai queste caratteristiche invia il curriculum a
               <a
-                href="mailto:info@esconsulting.it?subject=CANDIDATURA - FULL STACK DEVELOPER - JUNIOR"
+                href="mailto:info@esconsulting.it?subject=CANDIDATURA - DEVELOPER - JUNIOR"
                 target="_blank"
               >
                 <u>info@esconsulting.it</u>
