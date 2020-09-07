@@ -28,7 +28,9 @@
             >SVILUPPO CUSTOM SAP</b-dropdown-item
           >
         </b-nav-item-dropdown>
-        <b-nav-item class="nav-item voce_menu" href="#" to="/contatti"
+        <b-nav-item class="nav-item voce_menu" href="#" to="/lavora_con_noi"
+          >LAVORA CON NOI</b-nav-item
+        ><b-nav-item class="nav-item voce_menu" href="#" to="/contatti"
           >CONTATTI</b-nav-item
         >
       </b-navbar-nav>
