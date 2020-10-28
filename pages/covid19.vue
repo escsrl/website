@@ -6,7 +6,7 @@
       @click="clickLink"
     >
       <div class="col-12 mb-4">
-        <b-img src="/img/covid/covid.jpg" class="text-center" />
+        <b-img src="/img/covid/covid.jpg" class="text-center" height="200" />
       </div>
       <div
         class="col-12 text-center fontSizeTitle fontLatoBlack fontPinkText text-uppercase mt-4"
