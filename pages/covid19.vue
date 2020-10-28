@@ -24,7 +24,7 @@ export default {
   computed: {},
   methods: {
     clickLink() {
-      window.open('https://covid19.esconsulting.it', '_blank')
+      window.location = 'https://covid19.esconsulting.it'
     }
   },
   head() {
@@ -39,7 +39,7 @@ export default {
         {
           hid: 'og:image',
           name: 'og:image',
-          content: 'https://storage.googleapis.com/escsitoweb/covid.jpg'
+          content: 'https://storage.googleapis.com/escsitoweb/covid_social.png'
         },
         {
           hid: 'og:description',
@@ -61,7 +61,13 @@ export default {
   },
   layout: 'notemplate',
   beforeRouteEnter(to, from, next) {
-    next((vm) => {})
+    next((vm) => {
+      vm.clickLink()
+    })
+  },
+  beforeRouteUpdate(to, from, next) {
+    this.clickLink()
+    next()
   }
 }
 </script>
