@@ -6,7 +6,7 @@
       @click="clickLink"
     >
       <div class="col-12 mb-4">
-        <b-img src="/img/covid/covid.jpg" class="text-center" height="200" />
+        <b-img src="/img/covid/covid.jpg" class="text-center" />
       </div>
       <div
         class="col-12 text-center fontSizeTitle fontLatoBlack fontPinkText text-uppercase mt-4"
@@ -21,13 +21,45 @@
 export default {
   name: 'Covid19',
   components: {},
-  layout: 'notemplate',
   computed: {},
   methods: {
     clickLink() {
       window.open('https://covid19.esconsulting.it', '_blank')
     }
   },
+  head() {
+    return {
+      title: 'Esc',
+      meta: [
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Enterprise Software Consulting'
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: 'https://storage.googleapis.com/escsitoweb/covid.jpg'
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: 'Statistiche dei contagi Covid-19 aggiornate in tempo reale'
+        },
+        {
+          hid: 'og:type',
+          name: 'og:type',
+          content: 'website'
+        },
+        {
+          hid: 'og:url',
+          name: 'og:url',
+          content: 'https://covid19.esconsulting.it'
+        }
+      ]
+    }
+  },
+  layout: 'notemplate',
   beforeRouteEnter(to, from, next) {
     next((vm) => {})
   }
