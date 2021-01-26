@@ -180,50 +180,50 @@ export default {
             }
           ]
         },
+        // {
+        //   key: 1,
+        //   background: 'backgroundSchermataDue',
+        //   slideClass: 'slideDue',
+        //   mainTitle: {
+        //     animation: 'fadeInLeft',
+        //     classes: 'textUno fontLatoBlack',
+        //     text: 'SISTEMI \n INNOVATIVI \n SU MISURA'
+        //   },
+        //   subTitle: {
+        //     animation: 'fadeInRight',
+        //     classes: 'textDue fontPinkText',
+        //     text: 'SVILUPPO CUSTOM SAP'
+        //   },
+        //   images: [
+        //     {
+        //       animation: 'fadeInUp',
+        //       class: 'manichino',
+        //       src: '/img/animazioni/manichino.png'
+        //     },
+        //     {
+        //       animation: 'fadeInUp',
+        //       class: 'maniMetro',
+        //       src: '/img/animazioni/mani_metro.png'
+        //     },
+        //     {
+        //       animation: 'fadeInRight',
+        //       class: 'maniForbice',
+        //       src: '/img/animazioni/mani_forbice.png'
+        //     },
+        //     {
+        //       animation: 'fadeInUp',
+        //       class: 'maniSpilli',
+        //       src: '/img/animazioni/mano_spilli.png'
+        //     },
+        //     {
+        //       animation: 'fadeInRight',
+        //       class: 'maniLente',
+        //       src: '/img/animazioni/mano_lente.png'
+        //     }
+        //   ]
+        // },
         {
           key: 1,
-          background: 'backgroundSchermataDue',
-          slideClass: 'slideDue',
-          mainTitle: {
-            animation: 'fadeInLeft',
-            classes: 'textUno fontLatoBlack',
-            text: 'SISTEMI \n INNOVATIVI \n SU MISURA'
-          },
-          subTitle: {
-            animation: 'fadeInRight',
-            classes: 'textDue fontPinkText',
-            text: 'SVILUPPO CUSTOM SAP'
-          },
-          images: [
-            {
-              animation: 'fadeInUp',
-              class: 'manichino',
-              src: '/img/animazioni/manichino.png'
-            },
-            {
-              animation: 'fadeInUp',
-              class: 'maniMetro',
-              src: '/img/animazioni/mani_metro.png'
-            },
-            {
-              animation: 'fadeInRight',
-              class: 'maniForbice',
-              src: '/img/animazioni/mani_forbice.png'
-            },
-            {
-              animation: 'fadeInUp',
-              class: 'maniSpilli',
-              src: '/img/animazioni/mano_spilli.png'
-            },
-            {
-              animation: 'fadeInRight',
-              class: 'maniLente',
-              src: '/img/animazioni/mano_lente.png'
-            }
-          ]
-        },
-        {
-          key: 2,
           background: 'backgroundSchermataUno',
           slideClass: 'slideTre',
           mainTitle: {
@@ -260,7 +260,7 @@ export default {
           ]
         },
         {
-          key: 3,
+          key: 2,
           background: 'backgroundSchermataTre',
           slideClass: 'slideQuattro',
           mainTitle: {
@@ -312,7 +312,7 @@ export default {
           ]
         },
         {
-          key: 4,
+          key: 3,
           background: 'backgroundSchermataCinque',
           slideClass: 'slideCinque',
           mainTitle: {

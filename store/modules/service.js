@@ -30,13 +30,6 @@ const getDefaultState = () => {
         image: '/img/index/business_inteligence.png',
         text: 'Business Intelligence \n Self service',
         alt: 'Business Intelligence Self service'
-      },
-      {
-        key: 4,
-        link: '/sap',
-        image: '/img/index/sviluppo_custom.png',
-        text: 'Sviluppo custom \n Sap',
-        alt: 'Sviluppo custom Sap'
       }
     ]
   }
