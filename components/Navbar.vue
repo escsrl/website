@@ -24,6 +24,12 @@
           <b-dropdown-item class="voce_sottomenu" to="/bi"
             >BUSINESS INTELLIGENCE SELF SERVICE</b-dropdown-item
           >
+          <b-dropdown-item
+            class="voce_sottomenu"
+            href="https://bit.ly/esconsulting-campagna-joobto"
+            target="_blank"
+            >JOOBTO</b-dropdown-item
+          >
           <!--          <b-dropdown-item class="voce_sottomenu" to="/sap"-->
           <!--            >SVILUPPO CUSTOM SAP</b-dropdown-item-->
           <!--          >-->
@@ -40,7 +46,8 @@
 
 <script>
 export default {
-  name: 'Navbar'
+  name: 'Navbar',
+  methods: {}
 }
 </script>
 
