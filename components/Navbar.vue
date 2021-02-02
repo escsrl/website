@@ -30,9 +30,9 @@
             target="_blank"
             >JOOBTO</b-dropdown-item
           >
-          <!--          <b-dropdown-item class="voce_sottomenu" to="/sap"-->
-          <!--            >SVILUPPO CUSTOM SAP</b-dropdown-item-->
-          <!--          >-->
+          <b-dropdown-item class="voce_sottomenu" to="/approfondimenti"
+            >APPROFONDIMENTI</b-dropdown-item
+          >
         </b-nav-item-dropdown>
         <b-nav-item class="nav-item voce_menu" href="#" to="/lavora_con_noi"
           >LAVORA CON NOI</b-nav-item

@@ -102,14 +102,14 @@ export default {
     'bootstrap-vue/nuxt',
     'nuxt-fontawesome'
   ],
-  /*
-   ** Build configuration
-   */
+  /* ** Build configuration */
   build: {
-    /*
-     ** You can extend webpack config here
-     */
-    extend(config, ctx) {}
+    /* ** You can extend webpack config here */
+    extend(config, ctx) {},
+    // npx nuxt build -a
+    // analyze: true,
+    // transpile: [ ({ isClient }) => isClient && "vee-validate/dist/rules" ],
+    babel: { compact: true }
   },
   sitemap: {
     hostname: 'https://esconsulting.it',
