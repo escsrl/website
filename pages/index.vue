@@ -180,48 +180,6 @@ export default {
             }
           ]
         },
-        // {
-        //   key: 1,
-        //   background: 'backgroundSchermataDue',
-        //   slideClass: 'slideDue',
-        //   mainTitle: {
-        //     animation: 'fadeInLeft',
-        //     classes: 'textUno fontLatoBlack',
-        //     text: 'SISTEMI \n INNOVATIVI \n SU MISURA'
-        //   },
-        //   subTitle: {
-        //     animation: 'fadeInRight',
-        //     classes: 'textDue fontPinkText',
-        //     text: 'SVILUPPO CUSTOM SAP'
-        //   },
-        //   images: [
-        //     {
-        //       animation: 'fadeInUp',
-        //       class: 'manichino',
-        //       src: '/img/animazioni/manichino.png'
-        //     },
-        //     {
-        //       animation: 'fadeInUp',
-        //       class: 'maniMetro',
-        //       src: '/img/animazioni/mani_metro.png'
-        //     },
-        //     {
-        //       animation: 'fadeInRight',
-        //       class: 'maniForbice',
-        //       src: '/img/animazioni/mani_forbice.png'
-        //     },
-        //     {
-        //       animation: 'fadeInUp',
-        //       class: 'maniSpilli',
-        //       src: '/img/animazioni/mano_spilli.png'
-        //     },
-        //     {
-        //       animation: 'fadeInRight',
-        //       class: 'maniLente',
-        //       src: '/img/animazioni/mano_lente.png'
-        //     }
-        //   ]
-        // },
         {
           key: 1,
           background: 'backgroundSchermataUno',
@@ -351,6 +309,58 @@ export default {
               animation: 'fadeInUp',
               class: 'cassetti',
               src: '/img/animazioni/cassetti.png'
+            }
+          ]
+        },
+        {
+          key: 4,
+          background: 'backgroundSchermataTre',
+          slideClass: 'slideQuattro',
+          mainTitle: {
+            animation: 'fadeInLeft',
+            classes: 'textUno fontLatoBlack',
+            text: "INFORMAZIONI A COLPO D'OCCHIO"
+          },
+          subTitle: {
+            animation: 'fadeInRight',
+            classes: 'textDue fontPinkText',
+            text: 'APPROFONDIMENTI'
+          },
+          images: [
+            {
+              animation: 'fadeInRight',
+              class: 'polipo0',
+              src: '/img/animazioni/polipo_00.png'
+            },
+            {
+              animation: 'bounceInRight',
+              class: 'vasetti',
+              src: '/img/animazioni/vasetti.png'
+            },
+            {
+              animation: 'fadeInDown',
+              class: 'informations',
+              src: '/img/animazioni/informations.png'
+            },
+            {
+              animation: 'fadeInDown',
+              class: 'provetta1',
+              src: '/img/animazioni/provetta_01.png'
+            },
+            {
+              animation: 'fadeInRight',
+              class: 'provetta2',
+              src: '/img/animazioni/provetta_02.png'
+            },
+            {
+              animation: 'fadeIn',
+              class: 'tentacolo1',
+              src: '/img/animazioni/tentacolo_01.png'
+            },
+            {
+              animation: 'fadeIn',
+              class: 'tentacolo2',
+              src: '/img/animazioni/tentacolo_02.png'
             }
           ]
         }

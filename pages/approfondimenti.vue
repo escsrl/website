@@ -5,7 +5,7 @@
       slide-class="slideBusinessIG"
       image="/img/new_service/integrazgest_header.png"
       alt-text="Interoperabilità"
-      text="Informazione a colpo d'occhio!!"
+      text="INFORMAZIONI A COLPO D'OCCHIO!!"
     />
 
     <div class="row pt-md-5 pt-sm-3 pt-3 pt-integrazioni ">
