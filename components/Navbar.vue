@@ -30,6 +30,12 @@
             target="_blank"
             >JOOBTO</b-dropdown-item
           >
+          <b-dropdown-item
+            class="voce_sottomenu"
+            href="https://landing.esconsulting.it/"
+            target="_blank"
+            >WEBINAR
+          </b-dropdown-item>
           <b-dropdown-item class="voce_sottomenu" to="/approfondimenti"
             >APPROFONDIMENTI</b-dropdown-item
           >
