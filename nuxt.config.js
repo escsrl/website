@@ -100,7 +100,18 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
-    'nuxt-fontawesome'
+    'nuxt-fontawesome',
+    // With options
+    [
+      'nuxt-facebook-pixel-module',
+      {
+        /* module options */
+        track: 'PageView',
+        pixelId: '255909072843977',
+        autoPageView: true,
+        disabled: false
+      }
+    ]
   ],
   /* ** Build configuration */
   build: {
