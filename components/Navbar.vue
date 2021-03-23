@@ -36,6 +36,12 @@
             target="_blank"
             >WEBINAR
           </b-dropdown-item>
+          <b-dropdown-item
+            class="voce_sottomenu"
+            href="https://covid19.esconsulting.it/"
+            target="_blank"
+            >COVID19
+          </b-dropdown-item>
           <b-dropdown-item class="voce_sottomenu" to="/approfondimenti"
             >APPROFONDIMENTI</b-dropdown-item
           >
