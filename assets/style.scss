@@ -899,6 +899,42 @@ a {
 
 /* BOX DOWNLOAD - END */
 
+/* BOX GAME - INIZIO */
+
+.game_download {
+  cursor: pointer;
+  border: 1px solid #dedede;
+  width: 400px;
+  border-radius: 4px;
+  margin: 0 auto;
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+  text-align: center;
+
+  &:hover {
+    border-color: #e7007e;
+    transition: border-color 1s ease-out;
+  }
+
+  .testo {
+    font-style: italic;
+    width: 100%;
+    font-size: 25px;
+  }
+
+  img {
+    width: 150px;
+    height: 120px;
+  }
+
+  .underline {
+    text-decoration: underline;
+  }
+}
+
+/* BOX GAME - END */
+
 /** Portatili 1920  */
 @media (max-width: 1920px) {
   .map-responsive {
@@ -2399,6 +2435,24 @@ a {
   }
 
   /* BOX DOWNLOAD - END */
+
+  /* BOX GAME - INIZIO */
+
+  .game_download {
+    width: 100%;
+
+    .testo {;
+      font-size: 18px;
+    }
+
+    img {
+      width: 150px;
+      height: 100px;
+    }
+
+  }
+
+  /* BOX GAME - END */
 }
 
 /** Nexus 4 / Lg / Black */
@@ -3496,4 +3550,22 @@ a {
   }
 
   /* BOX DOWNLOAD - END */
+
+  /* BOX GAME - INIZIO */
+
+  .game_download {
+    width: 100%;
+
+    .testo {;
+      font-size: 18px;
+    }
+
+    img {
+      width: 100px;
+      height: 100px;
+    }
+
+  }
+
+  /* BOX GAME - END */
 }
