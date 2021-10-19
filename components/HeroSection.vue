@@ -2,9 +2,7 @@
   <div :class="topClasses">
     <div :class="slideClass">
       <img :src="image" :alt="altText" />
-      <div class="textUno fontWhitetext">
-        {{ text }}
-      </div>
+      <div class="textUno fontWhitetext" v-html="text" />
     </div>
   </div>
 </template>

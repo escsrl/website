@@ -935,6 +935,42 @@ a {
 
 /* BOX GAME - END */
 
+/* BOX QUIZ - INIZIO */
+
+.quiz_download {
+  cursor: pointer;
+  border: 1px solid #dedede;
+  width: 400px;
+  border-radius: 4px;
+  margin: 0 auto;
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+  text-align: center;
+
+  &:hover {
+    border-color: #e7007e;
+    transition: border-color 1s ease-out;
+  }
+
+  .testo {
+    font-style: italic;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  img {
+    width: 150px;
+    height: 120px;
+  }
+
+  .underline {
+    text-decoration: underline;
+  }
+}
+
+/* QUIZ GAME - END */
+
 /** Portatili 1920  */
 @media (max-width: 1920px) {
   .map-responsive {
@@ -2453,6 +2489,19 @@ a {
   }
 
   /* BOX GAME - END */
+
+  /* BOX QUIZ - INIZIO */
+
+  .quiz_download {
+    width: 100%;
+
+    .testo {;
+      font-size: 16px;
+    }
+
+  }
+
+  /* BOX QUIZ - END */
 }
 
 /** Nexus 4 / Lg / Black */
@@ -3562,10 +3611,28 @@ a {
 
     img {
       width: 100px;
-      height: 100px;
+      height: 80px;
     }
 
   }
 
   /* BOX GAME - END */
+
+  /* BOX QUIZ - INIZIO */
+
+  .quiz_download {
+    width: 100%;
+
+    .testo {;
+      font-size: 15px;
+    }
+
+    img {
+      width: 100px;
+      height: 80px;
+    }
+
+  }
+
+  /* BOX QUIZ - END */
 }

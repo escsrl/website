@@ -4,7 +4,7 @@
       top-classes="businessUno backgroundSchermataCinque"
       slide-class="slideBusinessWA"
       image="/img/new_service/webapplication_header.png"
-      alt-text="Interoperabilità"
+      alt-text="ESCYBER"
       text="ESCYBER VALUTA' LE TUE CONOSCENZE SULLA CYBER SECURITY"
     />
 
@@ -32,7 +32,6 @@
 
       <b-row align-v="center">
         <b-col>
-          <!-- Download broschure -->
           <div
             class="click_link game_download"
             style="margin-top: 5%;"

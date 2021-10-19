@@ -24,6 +24,9 @@
           <b-dropdown-item class="voce_sottomenu" to="/bi"
             >BUSINESS INTELLIGENCE SELF SERVICE</b-dropdown-item
           >
+          <b-dropdown-item class="voce_sottomenu" to="/games"
+            >ESC GAMING</b-dropdown-item
+          >
           <b-dropdown-item class="voce_sottomenu" to="/escyber"
             >ESCYBER</b-dropdown-item
           >
