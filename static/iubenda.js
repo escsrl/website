@@ -4,5 +4,10 @@ _iub.csConfiguration = {
   lang: 'it',
   siteId: 1414855,
   whitelabel: false,
-  cookiePolicyId: 50107621
+  cookiePolicyId: 50107621,
+  banner: {
+    acceptButtonDisplay: true,
+    customizeButtonDisplay: true,
+    rejectButtonDisplay: true
+  }
 }
