@@ -5,7 +5,7 @@
       slide-class="slideBusinessWA"
       image="/img/new_service/webapplication_header.png"
       alt-text="Interoperabilità"
-      text="ESCYBER VALUTA' LE TUE CONOSCENZE SULLA SYBER SECURITY"
+      text="ESCYBER VALUTA' LE TUE CONOSCENZE SULLA CYBER SECURITY"
     />
 
     <div class="row pt-md-5 pt-sm-3 pt-3 pt-integrazioni ">
