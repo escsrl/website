@@ -35,7 +35,7 @@
             >
               Informativa Clienti/Fornitori
             </a>
-            |
+            -
             <a
               href="/informative/informativa_cv.pdf"
               target="_blank"
@@ -44,7 +44,7 @@
             >
               Informativa CV
             </a>
-            |
+            <br />
             <a
               href="/informative/informativa_dipendenti.pdf"
               target="_blank"
@@ -52,6 +52,15 @@
               style="text-decoration: underline;"
             >
               Informativa Dipendenti
+            </a>
+            -
+            <a
+              href="/informative/informativa_potenziali_clienti.pdf"
+              target="_blank"
+              class="text-white"
+              style="text-decoration: underline;"
+            >
+              Informativa Potenziali Clienti
             </a>
           </div>
         </div>
