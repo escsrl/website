@@ -19,11 +19,40 @@
           </div>
           <div class="fontLatoRegular fontContatti pt-2">
             PI/CF IT 03031480167 <br />
-            <a href="mailto:info@esconsulting.it" class="text-white"
+            <a
+              href="mailto:info@esconsulting.it"
+              class="text-white"
+              style="text-decoration: underline;"
               >info@esconsulting.it</a
             >
             <br />
             ESC Copyright. All Rights Reserved. <br />
+            <a
+              href="/informative/informativa_clienti_fornitori.pdf"
+              target="_blank"
+              class="text-white"
+              style="text-decoration: underline;"
+            >
+              Informativa Clienti/Fornitori
+            </a>
+            |
+            <a
+              href="/informative/informativa_cv.pdf"
+              target="_blank"
+              class="text-white"
+              style="text-decoration: underline;"
+            >
+              Informativa CV
+            </a>
+            |
+            <a
+              href="/informative/informativa_dipendenti.pdf"
+              target="_blank"
+              class="text-white"
+              style="text-decoration: underline;"
+            >
+              Informativa Dipendenti
+            </a>
           </div>
         </div>
         <div class="p-2 ml-lg-auto align-self-center">
