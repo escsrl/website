@@ -5,9 +5,12 @@ _iub.csConfiguration = {
   siteId: 1414855,
   whitelabel: false,
   cookiePolicyId: 50107621,
+  invalidateConsentWithoutLog: true,
   banner: {
     acceptButtonDisplay: true,
     customizeButtonDisplay: true,
-    rejectButtonDisplay: true
+    rejectButtonDisplay: true,
+    listPurposes: true,
+    explicitWithdrawal: true
   }
 }
