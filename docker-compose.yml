@@ -1,0 +1,17 @@
+version: '2'
+services:
+  webapp:
+    image: esconsulting-client:latest
+    networks:
+      - default
+      - reverseproxy
+    environment:
+      VIRTUAL_HOST: www.esconsulting.it, esconsulting.it
+      LETSENCRYPT_HOST: www.esconsulting.it, esconsulting.it
+      LETSENCRYPT_EMAIL: info@esconsulting.it
+    restart: unless-stopped
+
+networks:
+  reverseproxy:
+    external:
+      name: reverseproxy
