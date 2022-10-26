@@ -53,6 +53,24 @@
             >
               Informativa Potenziali Clienti
             </a>
+            -
+            <a
+              href="/informative/CookiePolicy_SitoWeb.pdf"
+              target="_blank"
+              class="text-white"
+              style="text-decoration: underline;"
+            >
+              Informativa Cookie Policy
+            </a>
+            -
+            <a
+              href="/informative/PrivacyPolicy_SitoWeb.pdf"
+              target="_blank"
+              class="text-white"
+              style="text-decoration: underline;"
+            >
+              Informativa Privacy Policy
+            </a>
           </div>
         </div>
         <div class="p-2 ml-lg-auto align-self-center">
