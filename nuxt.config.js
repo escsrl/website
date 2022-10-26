@@ -50,16 +50,12 @@ export default {
         body: true
       },
       {
-        hid: 'iubendascript',
-        src: '/iubenda.js',
+        hid: 'cookiebotscript',
+        src: 'https://consent.cookiebot.com/uc.js',
+        'data-cbid': 'c4bb327a-1dd8-4230-871d-700d9864d989',
+        'data-blockingmode': 'auto',
         type: 'text/javascript',
-        charset: 'utf-8'
-      },
-      {
-        hid: 'iubenda',
-        src: '//cdn.iubenda.com/cs/iubenda_cs.js',
-        charset: 'utf-8',
-        defer: true
+        id: 'Cookiebot'
       }
     ]
   },
