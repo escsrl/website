@@ -228,6 +228,12 @@ a {
 
   img {
     width: 460px;
+
+    &.logoDocms{
+      width: 115px;
+      height: 105px;
+      margin-top: 50px;
+    }
   }
 
   .textUno {
@@ -286,6 +292,14 @@ a {
 
 .backgroundSchermataCinque {
   background-color: #28C8EA;
+}
+
+
+.backgroundSchermataDocsmarshal {
+  background-color: #28C8EA;
+  background-image: url('/docsm/Sfondo_Homepage_DocsMarshal_2.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .esColor {
@@ -2450,6 +2464,11 @@ a {
 
     img {
       width: 240px;
+
+      &.logoDocms{
+        width: 58px;
+        height: 53px;
+      }
     }
 
     .textUno {
@@ -3002,6 +3021,11 @@ a {
 
     img {
       width: 240px;
+
+      &.logoDocms{
+        width: 58px;
+        height: 53px;
+      }
     }
 
     .textUno {
@@ -3635,4 +3659,60 @@ a {
   }
 
   /* BOX QUIZ - END */
+}
+
+
+
+.boxDocsms{
+
+  .iconDocsms{
+    border-radius: 10px;
+    width: 120px;
+    min-height: 120px;
+    margin: 0 auto 10px auto;
+    background-position: center center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border: 3px #fff solid;
+
+    &.bpm{
+      background-image: url('/docsm/Business_process_management_Docsmarshal-1024x1024.png');
+      background-color: rgb(240, 144, 9);
+      box-shadow: 0 0 0 3px rgb(240, 144, 9);
+    }
+    &.sysint{
+      background-image: url('/docsm/system_integration_Docsmarshal-1024x1024.png');
+      background-color: rgb(30, 171, 227);
+      box-shadow: 0 0 0 3px rgb(30, 171, 227);
+    }
+    &.bi{
+      background-image: url('/docsm/Business_intelligence_Docsmarshal-1024x1024.png');
+      background-color: rgb(27, 173, 146);
+      box-shadow: 0 0 0 3px rgb(27, 173, 146);
+    }
+    &.docsman{
+      background-image: url('/docsm/Document_Management_Docsmarshal-1024x1024.png');
+      background-color: rgb(231, 33, 122);
+      box-shadow: 0 0 0 3px rgb(231, 33, 122);
+    }
+    &.dynamic{
+      background-image: url('/docsm/Dynamic_Docs_Engine_Docsmarshal-1024x1024.png');
+      background-color: rgb(245, 233, 48);
+      box-shadow: 0 0 0 3px rgb(245, 233, 48);
+    }
+    &.serviceapp{
+      background-image: url('/docsm/Service_oriented_application_Docsmarshal-1024x1024.png');
+      background-color: rgb(164, 200, 64);
+      box-shadow: 0 0 0 3px rgb(164, 200, 64);
+    }
+
+
+  }
+
+  h2{
+    font-weight: bold;
+    line-height: 1em;
+    min-height: 64px;
+  }
+
 }
