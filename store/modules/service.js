@@ -7,15 +7,8 @@ const getDefaultState = () => {
         key: 0,
         link: '/webapp',
         image: '/img/index/web_application.png',
-        text: 'Web \n application',
-        alt: 'Web application'
-      },
-      {
-        key: 1,
-        link: '/integrazioni-gestionali',
-        image: '/img/index/integrazioni_gestionali.png',
-        text: 'Integrazioni \n gestionali',
-        alt: 'Integrazioni gestionali'
+        text: 'Web \n applications',
+        alt: 'Web applications'
       },
       {
         key: 2,

@@ -1,85 +1,18 @@
 <template>
   <div>
     <hero-section
-      top-classes="businessUno backgroundSchermataTre"
-      slide-class="slideBusinessIG"
-      image="/img/new_service/integrazgest_header.png"
-      alt-text="Interoperabilità"
-      text="PAROLA D'ORDINE: INTEROPERABILITÀ"
+      top-classes="businessUno backgroundSchermataDue"
+      slide-class="slideBusinessWA"
+      image="/img/new_service/customsap_header.png"
+      alt-text="case histories"
+      text="CASE HISTORIES"
     ></hero-section>
 
-    <div class="row pt-md-5 pt-sm-3 pt-3 pt-integrazioni ">
-      <div
-        class="col-12 text-center fontSizeTitle fontLatoBlack fontPinkText text-uppercase"
-      >
-        integrazioni gestionali
-      </div>
-    </div>
     <b-container
       class="text-center pt-md-5 pb-md-5 pt-sm-3 pb-sm-3 pt-3 pb-3 mb-xl-5"
     >
-      <b-row
-        class="col-9 text-center mx-auto fontSizeText fontLatoRegular fontGrayText"
-      >
-        <p>
-          I nostri progetti di Data Integration automatizzano i processi di
-          elaborazione e lo scambio di informazioni tra gli applicativi.<br />
-          L’utilizzo di tools open source agevolano la trasformazione,
-          l'interoperabilità e la flessibilità gestionale di informazioni
-          provenienti da fonti dati diversificate.
-        </p>
-      </b-row>
-
-      <b-row align-v="center">
-        <b-col class="text-center">
-          <b-img
-            src="../static/img/integrazioni_gestionali/shopify.png"
-            fluid
-            class="text-center"
-          />
-        </b-col>
-        <b-col>
-          <b-img
-            src="../static/img/integrazioni_gestionali/sap_one.png"
-            fluid
-          />
-        </b-col>
-      </b-row>
-
-      <b-row align-v="center">
-        <b-col>
-          <b-img src="../static/img/integrazioni_gestionali/sap_r3.png" fluid />
-        </b-col>
-        <b-col>
-          <b-img src="../static/img/integrazioni_gestionali/sigla.png" fluid />
-        </b-col>
-        <b-col>
-          <b-img
-            src="../static/img/integrazioni_gestionali/power_bi.png"
-            fluid
-          />
-        </b-col>
-      </b-row>
-
-      <b-row align-v="center">
-        <b-col>
-          <b-img
-            src="../static/img/integrazioni_gestionali/sales_force.png"
-            fluid
-          />
-        </b-col>
-        <b-col>
-          <b-img
-            src="../static/img/integrazioni_gestionali/ibm_mdm.png"
-            fluid
-          />
-        </b-col>
-      </b-row>
-
       <b-row class="pt-4">
-        <b-col
-          class="d-flex justify-content-around flex-wrap align-items-stretch"
-        >
+        <b-col class="d-flex flex-column">
           <div v-for="card in cards" :key="card.key" class="mb-3">
             <case-history-card :title="card.title" :content="card.content">
             </case-history-card>

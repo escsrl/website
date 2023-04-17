@@ -4,15 +4,15 @@
       top-classes="businessUno backgroundSchermataCinque"
       slide-class="slideBusinessWA"
       image="/img/new_service/webapplication_header.png"
-      alt-text="Massima felssibilità"
-      text="SEMPLICI INTERFACCE PER LA MASSIMA REPERIBILITÀ DEI DATI"
+      alt-text="Massima flessibilità"
+      text="INTERFACCE SEMPLICI, ALTA PRODUTTIVITÀ"
     ></hero-section>
 
     <div class="row pt-md-5 pt-sm-3 pt-3 ">
       <div
         class="col-12 text-center fontSizeTitle fontLatoBlack fontPinkText text-uppercase"
       >
-        web application
+        web applications
       </div>
     </div>
     <div
@@ -35,14 +35,40 @@
             <div
               class="col-12 text-center fontSizeTitle fontLatoBlack fontPinkText text-uppercase"
             >
-              Case history
+              Strumenti
             </div>
           </div>
 
           <b-container class="text-center">
-            <b-row class="pt-4">
-              <b-col>
-                <!-- Download broschure -->
+            <b-row class="pt-4 d-flex flex-row justify-content-between">
+              <b-col class="col-12 col-lg-5">
+                <div class="d-flex flex-column align-items-center text-left">
+                  <img src="../static/img/webapps/symfony_vuejs.png" />
+                  <div class="mt-4">
+                    <small>
+                      <b>VUEJS</b> Un framework accessibile, performante e
+                      versatile per la creazione di interfacce utente web.
+                      <br />
+                      <b>SYMFONY</b> Un potente framework PHP per creare
+                      applicazioni web, API, microservizi e servizi web.
+                    </small>
+                  </div>
+                </div>
+              </b-col>
+              <b-col class="col-12 col-lg-5">
+                <div class="d-flex flex-column align-items-center text-left">
+                  <nuxt-link to="/docsmarshal" class="click_link">
+                    <img src="/docsm/ScrittaDocsMarshal-2048x467.png" />
+                  </nuxt-link>
+                  <div class="mt-4">
+                    <small>
+                      <b>Docsmarshal</b> è un sistema di Business Process
+                      Management che aiuta a gestire e a misurare i processi
+                      aziendali, combinando tecnologie informatiche e
+                      metodologie organizzative.</small
+                    >
+                  </div>
+                  <!-- Download broschure
                 <nuxt-link
                   to="/brochure/web_architecture.pdf"
                   target="_blank"
@@ -54,14 +80,8 @@
                     Scarica <br />la brochure
                   </div>
                 </nuxt-link>
-              </b-col>
-              <b-col>
-                <div class="link fontGrayText">
-                  <i>Visita il sito:</i>
+                 -->
                 </div>
-                <a href="https://shape-plus.it" target="_blank">
-                  <img src="/img/service/shapeplus_logo.png" alt="Pentaho" />
-                </a>
               </b-col>
             </b-row>
           </b-container>

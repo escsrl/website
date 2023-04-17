@@ -10,11 +10,7 @@
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
         <b-nav-item class="nav-item voce_menu" href="#" to="/">HOME</b-nav-item>
-
         <b-nav-item-dropdown text="SERVIZI" right class="voce_menu">
-          <b-dropdown-item class="voce_sottomenu" to="/integrazioni-gestionali"
-            >INTEGRAZIONI GESTIONALI</b-dropdown-item
-          >
           <b-dropdown-item class="voce_sottomenu" to="/webapp"
             >WEB APPLICATIONS</b-dropdown-item
           >
@@ -23,18 +19,6 @@
           >
           <b-dropdown-item class="voce_sottomenu" to="/bi"
             >BUSINESS INTELLIGENCE SELF SERVICE</b-dropdown-item
-          >
-          <b-dropdown-item class="voce_sottomenu" to="/games"
-            >ESC GAMING</b-dropdown-item
-          >
-          <b-dropdown-item class="voce_sottomenu" to="/escyber"
-            >ESCYBER</b-dropdown-item
-          >
-          <b-dropdown-item
-            class="voce_sottomenu"
-            href="https://bit.ly/esconsulting-campagna-joobto"
-            target="_blank"
-            >JOOBTO</b-dropdown-item
           >
           <!--          <b-dropdown-item-->
           <!--            class="voce_sottomenu"-->
@@ -52,6 +36,9 @@
             >APPROFONDIMENTI</b-dropdown-item
           >
         </b-nav-item-dropdown>
+        <b-nav-item class="nav-item voce_menu" href="#" to="/case-histories"
+          >CASE HISTORIES</b-nav-item
+        >
         <b-nav-item class="nav-item voce_menu" href="#" to="/lavora_con_noi"
           >LAVORA CON NOI</b-nav-item
         ><b-nav-item class="nav-item voce_menu" href="#" to="/contatti"

@@ -1,10 +1,10 @@
 <template>
   <b-card
     :title="title"
-    class="card fontPinkText shadow p-3 mb-5 bg-white rounded"
+    class="card fontPinkText shadow p-3 mb-5 bg-white rounded text-left"
   >
     <b-card-text
-      class="fontSizeText fontLatoRegular fontGrayText"
+      class="fontSizeText fontLatoRegular fontGrayText text-justify"
       v-html="content"
     >
     </b-card-text>
@@ -29,7 +29,7 @@ export default {
 
 <style scoped>
 .card {
-  max-width: 30rem;
+  /*max-width: 30rem;*/
   border-radius: 10px;
   height: 100%;
 }
