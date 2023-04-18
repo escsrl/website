@@ -5,14 +5,14 @@
       slide-class="slideBusinessIG"
       image="/img/new_service/integrazgest_header.png"
       alt-text="Interoperabilità"
-      text="PAROLA D'ORDINE: INTEROPERABILITÀ"
+      text="AUTOMATIZZA L'IMPOSSIBILE"
     ></hero-section>
 
     <div class="row pt-md-5 pt-sm-3 pt-3 pt-integrazioni ">
       <div
         class="col-12 text-center fontSizeTitle fontLatoBlack fontPinkText text-uppercase"
       >
-        integrazioni gestionali
+        integrazione gestionali
       </div>
     </div>
     <b-container
@@ -24,12 +24,30 @@
         <p>
           I nostri progetti di Data Integration automatizzano i processi di
           elaborazione e lo scambio di informazioni tra gli applicativi.<br />
-          L’utilizzo di tools open source agevolano la trasformazione,
+          L’utilizzo di Docsmarshal agevola la trasformazione,
           l'interoperabilità e la flessibilità gestionale di informazioni
           provenienti da fonti dati diversificate.
         </p>
       </b-row>
 
+      <div class="row" style="margin-top: 60px">
+        <div
+          class="col-12 text-center fontSizeTitle fontLatoBlack fontPinkText text-uppercase"
+        >
+          Strumenti
+        </div>
+        <b-container class="text-center">
+          <b-row class="d-flex flex-row justify-content-center">
+            <nuxt-link to="/docsmarshal" class="click_link">
+              <img
+                src="/docsm/ScrittaDocsMarshal-2048x467.png"
+                alt="Docsmarshal"
+              />
+            </nuxt-link>
+          </b-row>
+        </b-container>
+      </div>
+      <!--
       <b-row align-v="center">
         <b-col class="text-center">
           <b-img
@@ -75,17 +93,7 @@
           />
         </b-col>
       </b-row>
-
-      <b-row class="pt-4">
-        <b-col
-          class="d-flex justify-content-around flex-wrap align-items-stretch"
-        >
-          <div v-for="card in cards" :key="card.key" class="mb-3">
-            <case-history-card :title="card.title" :content="card.content">
-            </case-history-card>
-          </div>
-        </b-col>
-      </b-row>
+      -->
     </b-container>
   </div>
 </template>
@@ -93,10 +101,9 @@
 <script>
 import { sync } from 'vuex-pathify'
 import HeroSection from '../components/HeroSection'
-import CaseHistoryCard from '../components/CaseHistoryCard'
 export default {
   name: 'IntegrazioniGestionali',
-  components: { CaseHistoryCard, HeroSection },
+  components: { HeroSection },
   layout: 'services',
   data() {
     return {

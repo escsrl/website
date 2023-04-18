@@ -21,7 +21,7 @@ export default {
         hid: 'keywords',
         name: 'keywords',
         content:
-          'dati, big data, IT, applicazioni, gestionali, software, SAP, ABAP, big intelligence, soluzione dati, gestione dati, analisi dati, open source, icloud, web application, integrazioni gestionali.'
+          'dati, big data, IT, applicazioni, gestionali, software, SAP, ABAP, big intelligence, soluzione dati, gestione dati, analisi dati, open source, icloud, web application, integrazione gestionali.'
       },
       {
         hid: 'author',

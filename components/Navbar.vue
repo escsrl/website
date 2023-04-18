@@ -11,6 +11,9 @@
       <b-navbar-nav class="ml-auto">
         <b-nav-item class="nav-item voce_menu" href="#" to="/">HOME</b-nav-item>
         <b-nav-item-dropdown text="SERVIZI" right class="voce_menu">
+          <b-dropdown-item class="voce_sottomenu" to="/integrazioni-gestionali"
+            >INTEGRAZIONE GESTIONALI</b-dropdown-item
+          >
           <b-dropdown-item class="voce_sottomenu" to="/webapp"
             >WEB APPLICATIONS</b-dropdown-item
           >

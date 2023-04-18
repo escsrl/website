@@ -112,8 +112,8 @@ import Animation from '../components/Animation'
 
 export default {
   name: 'Contatti',
-  layout: 'noservices',
   components: { Animation },
+  layout: 'noservices',
   data() {
     return {
       currentSlide: 0,
@@ -237,12 +237,12 @@ export default {
           mainTitle: {
             animation: 'fadeInLeft',
             classes: 'textUno fontLatoBlack',
-            text: "PAROLA D'ORDINE: \n INTEROPERABILITÀ"
+            text: "AUTOMATIZZA L'IMPOSSIBILE"
           },
           subTitle: {
             animation: 'fadeInRight',
             classes: 'textDue fontPinkText',
-            text: 'INTEGRAZIONI GESTIONALI'
+            text: 'INTEGRAZIONE GESTIONALI'
           },
           images: [
             {

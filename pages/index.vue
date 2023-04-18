@@ -217,60 +217,60 @@ export default {
             }
           ]
         },
-        // {
-        //   key: 2,
-        //   background: 'backgroundSchermataTre',
-        //   slideClass: 'slideQuattro',
-        //   mainTitle: {
-        //     animation: 'fadeInLeft',
-        //     classes: 'textUno fontLatoBlack',
-        //     text: "PAROLA D'ORDINE: \n INTEROPERABILITÀ"
-        //   },
-        //   subTitle: {
-        //     animation: 'fadeInRight',
-        //     classes: 'textDue fontPinkText',
-        //     text: 'INTEGRAZIONI GESTIONALI'
-        //   },
-        //   images: [
-        //     {
-        //       animation: 'fadeInRight',
-        //       class: 'polipo0',
-        //       src: '/img/animazioni/polipo_00.png'
-        //     },
-        //     {
-        //       animation: 'bounceInRight',
-        //       class: 'vasetti',
-        //       src: '/img/animazioni/vasetti.png'
-        //     },
-        //     {
-        //       animation: 'fadeInDown',
-        //       class: 'informations',
-        //       src: '/img/animazioni/informations.png'
-        //     },
-        //     {
-        //       animation: 'fadeInDown',
-        //       class: 'provetta1',
-        //       src: '/img/animazioni/provetta_01.png'
-        //     },
-        //     {
-        //       animation: 'fadeInRight',
-        //       class: 'provetta2',
-        //       src: '/img/animazioni/provetta_02.png'
-        //     },
-        //     {
-        //       animation: 'fadeIn',
-        //       class: 'tentacolo1',
-        //       src: '/img/animazioni/tentacolo_01.png'
-        //     },
-        //     {
-        //       animation: 'fadeIn',
-        //       class: 'tentacolo2',
-        //       src: '/img/animazioni/tentacolo_02.png'
-        //     }
-        //   ]
-        // },
         {
           key: 2,
+          background: 'backgroundSchermataTre',
+          slideClass: 'slideQuattro',
+          mainTitle: {
+            animation: 'fadeInLeft',
+            classes: 'textUno fontLatoBlack',
+            text: "AUTOMATIZZA L'IMPOSSIBILE"
+          },
+          subTitle: {
+            animation: 'fadeInRight',
+            classes: 'textDue fontPinkText',
+            text: 'INTEGRAZIONE GESTIONALI'
+          },
+          images: [
+            {
+              animation: 'fadeInRight',
+              class: 'polipo0',
+              src: '/img/animazioni/polipo_00.png'
+            },
+            {
+              animation: 'bounceInRight',
+              class: 'vasetti',
+              src: '/img/animazioni/vasetti.png'
+            },
+            {
+              animation: 'fadeInDown',
+              class: 'informations',
+              src: '/img/animazioni/informations.png'
+            },
+            {
+              animation: 'fadeInDown',
+              class: 'provetta1',
+              src: '/img/animazioni/provetta_01.png'
+            },
+            {
+              animation: 'fadeInRight',
+              class: 'provetta2',
+              src: '/img/animazioni/provetta_02.png'
+            },
+            {
+              animation: 'fadeIn',
+              class: 'tentacolo1',
+              src: '/img/animazioni/tentacolo_01.png'
+            },
+            {
+              animation: 'fadeIn',
+              class: 'tentacolo2',
+              src: '/img/animazioni/tentacolo_02.png'
+            }
+          ]
+        },
+        {
+          key: 3,
           background: 'backgroundSchermataCinque',
           slideClass: 'slideCinque',
           mainTitle: {
@@ -310,59 +310,60 @@ export default {
               src: '/img/animazioni/cassetti.png'
             }
           ]
-        },
-        {
-          key: 3,
-          background: 'backgroundSchermataTre',
-          slideClass: 'slideQuattro',
-          mainTitle: {
-            animation: 'fadeInLeft',
-            classes: 'textUno fontLatoBlack',
-            text: "INFORMAZIONI A COLPO D'OCCHIO"
-          },
-          subTitle: {
-            animation: 'fadeInRight',
-            classes: 'textDue fontPinkText',
-            text: 'APPROFONDIMENTI'
-          },
-          images: [
-            {
-              animation: 'fadeInRight',
-              class: 'polipo0',
-              src: '/img/animazioni/polipo_00.png'
-            },
-            {
-              animation: 'bounceInRight',
-              class: 'vasetti',
-              src: '/img/animazioni/vasetti.png'
-            },
-            {
-              animation: 'fadeInDown',
-              class: 'informations',
-              src: '/img/animazioni/informations.png'
-            },
-            {
-              animation: 'fadeInDown',
-              class: 'provetta1',
-              src: '/img/animazioni/provetta_01.png'
-            },
-            {
-              animation: 'fadeInRight',
-              class: 'provetta2',
-              src: '/img/animazioni/provetta_02.png'
-            },
-            {
-              animation: 'fadeIn',
-              class: 'tentacolo1',
-              src: '/img/animazioni/tentacolo_01.png'
-            },
-            {
-              animation: 'fadeIn',
-              class: 'tentacolo2',
-              src: '/img/animazioni/tentacolo_02.png'
-            }
-          ]
         }
+        // ,
+        // {
+        //   key: 4,
+        //   background: 'backgroundSchermataTre',
+        //   slideClass: 'slideQuattro',
+        //   mainTitle: {
+        //     animation: 'fadeInLeft',
+        //     classes: 'textUno fontLatoBlack',
+        //     text: "INFORMAZIONI A COLPO D'OCCHIO"
+        //   },
+        //   subTitle: {
+        //     animation: 'fadeInRight',
+        //     classes: 'textDue fontPinkText',
+        //     text: 'APPROFONDIMENTI'
+        //   },
+        //   images: [
+        //     {
+        //       animation: 'fadeInRight',
+        //       class: 'polipo0',
+        //       src: '/img/animazioni/polipo_00.png'
+        //     },
+        //     {
+        //       animation: 'bounceInRight',
+        //       class: 'vasetti',
+        //       src: '/img/animazioni/vasetti.png'
+        //     },
+        //     {
+        //       animation: 'fadeInDown',
+        //       class: 'informations',
+        //       src: '/img/animazioni/informations.png'
+        //     },
+        //     {
+        //       animation: 'fadeInDown',
+        //       class: 'provetta1',
+        //       src: '/img/animazioni/provetta_01.png'
+        //     },
+        //     {
+        //       animation: 'fadeInRight',
+        //       class: 'provetta2',
+        //       src: '/img/animazioni/provetta_02.png'
+        //     },
+        //     {
+        //       animation: 'fadeIn',
+        //       class: 'tentacolo1',
+        //       src: '/img/animazioni/tentacolo_01.png'
+        //     },
+        //     {
+        //       animation: 'fadeIn',
+        //       class: 'tentacolo2',
+        //       src: '/img/animazioni/tentacolo_02.png'
+        //     }
+        //   ]
+        // }
       ]
     }
   },

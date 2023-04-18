@@ -11,6 +11,13 @@ const getDefaultState = () => {
         alt: 'Web applications'
       },
       {
+        key: 1,
+        link: '/integrazioni-gestionali',
+        image: '/img/index/integrazioni_gestionali.png',
+        text: 'Integrazioni \n gestionali',
+        alt: 'Integrazione gestionali'
+      },
+      {
         key: 2,
         link: '/data',
         image: '/img/index/data_cleaner.png',
