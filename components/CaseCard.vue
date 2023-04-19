@@ -1,37 +1,39 @@
 <template>
-  <b-card
-    :title="title"
-    class="card fontPinkText shadow p-3 mb-5 bg-white rounded"
-  >
-    <b-card-text
-      class="fontSizeText fontLatoRegular fontGrayText"
-      v-html="content"
-    >
-    </b-card-text>
-    <iframe
-      :src="link"
-      width="100%"
-      height="325"
-      frameborder="0"
-      marginwidth="0"
-      marginheight="0"
-      scrolling="no"
-      style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;"
-      allowfullscreen
-    >
-    </iframe>
-    <div style="margin-bottom:5px">
-      <u>
-        <a
-          :href="link"
-          title="Visualizza"
-          target="_blank"
-          style="color: #555555"
+  <b-card class="card shadow p-3 bg-white rounded text-left">
+    <h4
+      class="card-title fontPinkText pb-4 font-weight-bold"
+      v-html="title"
+    ></h4>
+    <b-card-text class="fontLatoRegular fontGrayText text-justify">
+      <div class="d-flex flex-column flex-md-row">
+        <iframe
+          v-if="link"
+          :src="link"
+          width="100%"
+          height="325"
+          frameborder="0"
+          marginwidth="0"
+          marginheight="0"
+          scrolling="no"
+          style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;"
+          allowfullscreen
+          class="mr-md-4"
         >
-          {{ title }}
-        </a>
-      </u>
-    </div>
+        </iframe>
+        <div>
+          <p v-html="content"></p>
+          <div v-if="link" style="margin-bottom:5px" class="text-right">
+            <a
+              :href="link"
+              class="btn btn-outline-primary btn-sm"
+              role="button"
+              aria-pressed="true"
+              >{{ title }}</a
+            >
+          </div>
+        </div>
+      </div>
+    </b-card-text>
   </b-card>
 </template>
 
@@ -57,7 +59,7 @@ export default {
 
 <style scoped>
 .card {
-  max-width: 30rem;
+  /*max-width: 30rem;*/
   border-radius: 10px;
   height: 100%;
 }

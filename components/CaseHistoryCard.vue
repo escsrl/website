@@ -1,10 +1,11 @@
 <template>
-  <b-card
-    :title="title"
-    class="card fontPinkText shadow p-3 mb-5 bg-white rounded text-left"
-  >
+  <b-card class="card shadow p-3 bg-white rounded text-left">
+    <h4
+      class="card-title fontPinkText pb-4 font-weight-bold"
+      v-html="title"
+    ></h4>
     <b-card-text
-      class="fontSizeText fontLatoRegular fontGrayText text-justify"
+      class="fontLatoRegular fontGrayText text-justify"
       v-html="content"
     >
     </b-card-text>

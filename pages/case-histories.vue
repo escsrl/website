@@ -13,7 +13,11 @@
     >
       <b-row class="pt-4">
         <b-col class="d-flex flex-column">
-          <div v-for="card in cards" :key="card.key" class="mb-3">
+          <div
+            v-for="card in cardsReversedOrder()"
+            :key="card.key"
+            class="mb-3"
+          >
             <case-history-card :title="card.title" :content="card.content">
             </case-history-card>
           </div>
@@ -192,6 +196,27 @@ export default {
           content:
             'L’esigenza del cliente era di creare un unico data warehouse aziendale, incorporando i dati provenienti da ERP differenti (ACG, Galileo, SAP R/3) legati alle diverse società del gruppo.<br/>' +
             'Tramite l’utilizzo di trasformazioni ETL ogni giorno i dati vengono storicizzati e accodati, creando un’unica view dei dati del gruppo. Tramite Microsoft Power BI sono state poi preparate le dashboard necessarie per la visualizzazione e l’interrogazione dei dati.'
+        },
+        {
+          key: 13,
+          title: 'Idea,Progetto, Soddisfazione',
+          content:
+            'Questa settimana abbiamo rilasciato, con grande soddisfazione, un progetto che avevamo definito “BI-Innovation”.<br />' +
+            'Il progetto, nato dall’ambiziosa idea di sfruttare la tecnologia per una nuova modalità di analisi delle informazioni gestionali, ha richiesto un notevole sforzo per l’acquisizione delle competenze di dominio aziendale e della tipologia di business, da un lavoro capillare di analisi per la pulizia e l’organizzazione dei dati, fino alla definizione delle regole per la determinazione dei valori da acquisire per le analisi.<br />' +
+            '<br />' +
+            'Durante il percorso di approfondimento, è nata l’esigenza di riclassificare le anagrafiche articoli ritenute troppo generiche rispetto all’obiettivo.<br />' +
+            'Per monitorare le caratteristiche dei prodotti e il controllo di congruità delle nuove aggregazioni abbiamo personalizzato un motore di ricerca (open-source) che attraverso la funzione di ricerca full text e l’applicazione di eventuali filtri per caratteristica, semplifica di molto l’attività utente nella fase molto delicata di attribuzione delle caratteristiche degli articoli.<br />' +
+            '<br />' +
+            'Questa estensione di progetto ha permesso di ampliare la navigabilità dei dati, avendo una categorizzazione certa degli articoli e la capillarità necessaria di informazione statistica.<br />' +
+            'La tracciatura dei lotti degli articoli in entrata concatenata con la tracciatura dei lotti dei prodotti in uscita abbinati alla classificazione gerarchica rende l’analisi dei lotti molto dettagliata e pronta a qualsiasi richiesta specifica.<br />' +
+            '<br />' +
+            "Completata la prima parte del progetto stiamo lavorando all’applicazione del concetto di AI incentrata sui dati gestionali (small data) mantenendo i modelli più o meno fissi inclusi in una black-box, con l'obiettivo di migliorare la qualità dei dati per arrivare ad una comprensione approfondita del nostro set di dati per poi sfruttarli per future analisi predittive.<br />" +
+            'Per questa fase di progetto abbiamo aperto una collaborazione con il politecnico di Milano in attesa di completare la riclassificazione degli articoli, per poi passare alla fase operativa che prevede lo sviluppo e estensione delle analisi dei dati con nuove funzionalità con Power Bi.<br />' +
+            '<br />' +
+            'Colgo l’occasione per ringraziare tutti i partecipanti al progetto e gli utenti che hanno accolto la soluzione con grande interesse ed entusiasmo.<br />' +
+            '<br />' +
+            'Riporto una citazione, che nel nostro caso è stata sconfessata: <br />' +
+            "«Per ogni problema complesso, c'è sempre una soluzione semplice. Che è sbagliata» (George Bernard Shaw)."
         }
       ]
     }
@@ -203,6 +228,13 @@ export default {
     next((vm) => {
       vm.keyToOmit = 1
     })
+  },
+  methods: {
+    cardsReversedOrder() {
+      const cardsReversedOrder = [...this.cards].reverse()
+      console.log(cardsReversedOrder)
+      return cardsReversedOrder
+    }
   }
 }
 </script>
