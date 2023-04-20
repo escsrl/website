@@ -70,6 +70,14 @@ a {
   border-left: 0px;
   border-right: 0px;
   border-bottom: 5px solid #e7007e;
+  box-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+
+@media (max-width: 991px) {
+  .dropdown-menu {
+    border-bottom: 5px solid rgba(0, 0, 0, 0);
+    box-shadow: none;
+  }
 }
 
 .container {
@@ -355,10 +363,11 @@ a {
 
 .navbar {
   background-color: white;
+  box-shadow: 0 2px 2px rgba(0,0,0,.25);
 }
 
 .nav-item {
-  margin-left: 40px;
+  margin-left: 30px;
   padding-bottom: 17px;
 }
 
@@ -1995,7 +2004,7 @@ a {
   }
 
   .navbar-brand img {
-    margin-left: 32px;
+    margin-left: 0px;
   }
 
   .web_app img {
