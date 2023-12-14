@@ -40,8 +40,9 @@
           <b-row class="d-flex flex-row justify-content-center">
             <nuxt-link to="/docsmarshal" class="click_link">
               <img
-                src="/docsm/ScrittaDocsMarshal-2048x467.png"
+                src="/docsm/dm_logo_grey.png"
                 alt="Docsmarshal"
+                class="logo_docsmarshal"
               />
             </nuxt-link>
           </b-row>
@@ -281,4 +282,9 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.logo_docsmarshal {
+  width: 200px;
+  margin-top: 30px;
+}
+</style>

@@ -2,10 +2,7 @@
   <div>
     <div class="businessUno backgroundSchermataDocsmarshal">
       <div class="slideBusinessWA">
-        <img
-          src="../static/docsm/docsmarshal-logo-230x210.png"
-          class="logoDocms"
-        />
+        <img src="../static/docsm/dm_logo_white.png" class="logoDocms" />
         <div class="textUno fontWhitetext" style="line-height: 1em;">
           docsmarshal<br />
         </div>

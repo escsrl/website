@@ -58,7 +58,11 @@
               <b-col class="col-12 col-lg-5">
                 <div class="d-flex flex-column align-items-center text-left">
                   <nuxt-link to="/docsmarshal" class="click_link">
-                    <img src="/docsm/ScrittaDocsMarshal-2048x467.png" />
+                    <img
+                      src="/docsm/dm_logo_grey.png"
+                      alt="Docsmarshal"
+                      class="logo_docsmarshal"
+                    />
                   </nuxt-link>
                   <div class="mt-4">
                     <small>
@@ -113,4 +117,10 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.logo_docsmarshal {
+  width: 140px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+</style>
