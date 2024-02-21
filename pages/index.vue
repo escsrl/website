@@ -21,39 +21,45 @@
     </b-carousel>
     <div class="container">
       <div class="row pt-title1 pt-sm-3 pt-3">
-        <div
-          class="col-10 offset-1 text-center fontSizeTitle fontLatoBlack fontPinkText text-uppercase"
-          style="background-image: url('/docsm/dday_2024/Banner_bg.png'); background-size: 100%;"
+        <a
+          href="https://dday.docsmarshal.com/?objectId=545a5c77-4f95-4a39-93c6-428042fd17f1"
+          target="_blank"
+          title="DocsMarshal Day 2024 - ESC Enterprise Software Consulting srl"
         >
           <div
-            style="padding: 20px 0 0 0; font-family: 'Lato', sans-serif; letter-spacing: .045em;"
+            class="col-10 offset-1 text-center fontSizeTitle fontLatoBlack fontPinkText text-uppercase"
+            style="background-image: url('/docsm/dday_2024/Banner_bg.png'); background-size: 100%;"
           >
-            <h4
-              style="text-transform: lowercase; color: white; margin-bottom: 0"
+            <div
+              style="padding: 20px 0 0 0; font-family: 'Lato', sans-serif; letter-spacing: .045em;"
             >
-              mercoledì 20 marzo
-              <span style="font-weight:700; color: #f5662a">2024</span>
-            </h4>
-            <h5 style="text-transform: lowercase; color: white;">
-              09.00 - 16.00
-            </h5>
+              <h4
+                style="text-transform: lowercase; color: white; margin-bottom: 0"
+              >
+                mercoledì 20 marzo
+                <span style="font-weight:700; color: #f5662a">2024</span>
+              </h4>
+              <h5 style="text-transform: lowercase; color: white;">
+                09.00 - 16.00
+              </h5>
+            </div>
+            <img
+              src="/docsm/dday_2024/Banner1.png"
+              alt="DocsMarshal Day 2024 - ESC Enterprise Software Consulting srl"
+              style="width: 100%"
+            />
+            <div
+              style="padding: 0 0 20px 0; font-family: 'Lato', sans-serif; letter-spacing: .045em;"
+            >
+              <h4 style="font-weight:700; color: #f5662a;  margin-bottom: 0">
+                Palazzo Gambara
+              </h4>
+              <h5 style="text-transform: lowercase; color: white;">
+                via San Vito, 31 Bedizzole (BS)
+              </h5>
+            </div>
           </div>
-          <img
-            src="/docsm/dday_2024/Banner1.png"
-            alt="DDay 2024"
-            style="width: 100%"
-          />
-          <div
-            style="padding: 0 0 20px 0; font-family: 'Lato', sans-serif; letter-spacing: .045em;"
-          >
-            <h4 style="font-weight:700; color: #f5662a;  margin-bottom: 0">
-              Palazzo Gambara
-            </h4>
-            <h5 style="text-transform: lowercase; color: white;">
-              via San Vito, 31 Bendizzole (BS)
-            </h5>
-          </div>
-        </div>
+        </a>
       </div>
     </div>
     <div id="chi_siamo" class="container">
