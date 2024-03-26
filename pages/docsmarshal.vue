@@ -3,7 +3,10 @@
     <div class="businessUno backgroundSchermataDocsmarshal">
       <div class="slideBusinessWA">
         <img src="../static/docsm/dm_logo_white.png" class="logoDocms" />
-        <div class="textUno fontWhitetext" style="line-height: 1em;">
+        <div
+          class="textUno fontWhitetext"
+          style="line-height: 1em; padding-top: 10px"
+        >
           docsmarshal<br />
         </div>
         <div class="fontWhitetext" style="font-size: 24px">
@@ -22,7 +25,7 @@
     </div>
     <div class="row pb-md-5 pt-sm-3 pb-sm-3 pt-3 pb-3 mb-xl-5 text-center">
       <div
-        class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-10 text-center mx-auto fontSizeText fontLatoRegular fontGrayText"
+        class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-10 text-center mx-auto fontSizeText fontLatoRegular fontGrayText"
       >
         <p>
           <b>Docsmarshal</b> è un sistema di

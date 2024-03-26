@@ -284,7 +284,7 @@ export default {
 
 <style scoped>
 .logo_docsmarshal {
-  width: 200px;
-  margin-top: 30px;
+  width: 250px;
+  margin-top: 0px;
 }
 </style>
